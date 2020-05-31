@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Race from './components/Race';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  
+  state = {
+    races: [
+      {
+        state: 'Maine',
+        demId: 'S0ME00111',
+        demName: 'Sara Gideon',
+        repId: 'S6ME00159',
+        repName: 'Susan Collins',      
+      },
+      {
+        state: 'Colorado',
+        demId: 'S0CO00575',
+        demName: 'John Hickenlooper',
+        repId: 'S4CO00395',
+        repName: 'Cory Gardner',      
+      }
+    ]
+  };
+  
+  render() {
+    return (
+      <div>
+      {this.state.races.map(race => (
+        <Race key={race.demId} race={race} />
+      ))}
+      </div>
+    )
+  }
 }
 
 export default App;

@@ -4,6 +4,9 @@ import Race from './components/Race';
 class App extends Component {
   
   state = {
+    
+    onHand: "true",
+    
     races: [
       {
         state: 'Maine',
@@ -35,11 +38,11 @@ class App extends Component {
         demId: 'S0AZ00350',
 
         demName: 'Mark Kelly',
-        demImg: 'sara-gideon.png',
+        demImg: 'mark-kelly.png',
 
         repId: 'S8AZ00221',
         repName: 'Martha McSally',
-        repImg: 'susan-collins.png',
+        repImg: 'martha-mcsally.png',
       },
       {
         state: 'Colorado',
@@ -47,17 +50,37 @@ class App extends Component {
 
         demId: 'S0CO00575',
         demName: 'John Hickenlooper',
-        demImg: 'sara-gideon.png',
+        demImg: 'john-hickenlooper.png',
 
         repId: 'S4CO00395',
         repName: 'Cory Gardner',
-        repImg: 'susan-collins.png',
+        repImg: 'cory-gardner.png',
       }
     ]
   };
   
+  setOnHand(event) {
+    this.setState({
+      onHand: (event.target.value === "true")
+    });
+  }
+  
   render() {
     return (
+      <div>
+      <center><h1>2020 Senate Money Race</h1>
+      <p>Money raised by each 2020 Senate candidate, rounded to the nearest dollar. Data is from the most recent FEC filing.</p></center>
+      
+      <div className="btn-group btn-group-toggle" data-toggle="buttons" onChange={event => this.setOnHand(event)}>
+        <label className="btn btn-secondary active">
+          Cash on Hand
+          <input type="radio" value="true" name="options" id="option1" autoComplete="off" defaultChecked />
+        </label>
+        <label className="btn btn-secondary">
+          Total Raised
+          <input type="radio" value="false" name="options" id="option2" autoComplete="off" />
+        </label>
+      </div>
       
       <div className="raceList">
         {this.state.races.map(race => (
@@ -70,12 +93,13 @@ class App extends Component {
             </div>
             
             <div className="raceInfo">
-              <Race key={race.demId} race={race} />
+              <Race key={race.demId} race={race} onHand={this.state.onHand} />
             </div>
           
           </div>
           
         ))}
+      </div>
       </div>
     )
   }

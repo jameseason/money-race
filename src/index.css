@@ -44,31 +44,40 @@ code {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding: 10px;
+  padding: 0px;
   vertical-align: middle;
+  height: 65px;
+}
+
+.barBackground:after{
+    content:"";
+    position: relative;
+    z-index: 999;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    border-left: 2px dotted #fafafa;
 }
 
 .barDem {
   width: 50%;
-  height: 30px;
   background-color: #3571C0;
-  text-align: center;
+  text-align: left;
   color: white;
   vertical-align: middle;
 }
 
 .barRep {
   width: 50%;
-  height: 30px;
   background-color: #FE5C40;
-  text-align: center;
+  text-align: right;
   color: white;
   vertical-align: middle;
 }
 
 .portrait {
-  /*border: 1px solid black;*/
-  width: 60px;
+  height: 65px;
   vertical-align: middle;
 }
 

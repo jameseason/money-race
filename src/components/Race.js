@@ -6,14 +6,14 @@ class Race extends React.Component {
 
   state = {
     apiKey: '01S7pQx8JQPyWhG5lXIcG6QTgVh1ZQ87ITVH2gdH',
+
     demName: '',
     demOnHand: 0,
     demTotal: 0,
-    demPercent: 0,
+
     repName: '',
     repOnHand: 0,
     repTotal: 0,
-    repPercent: 0
   };
 
   /**
@@ -44,7 +44,7 @@ class Race extends React.Component {
         this.setState({
           repName: this.props.race.repName,
           repOnHand: data.results[0].last_cash_on_hand_end_period,
-          repTotal: data.results[0].receipts
+          repTotal: data.results[0].receipts,
         });
 
         ls.set(this.props.race.demId, JSON.stringify(this.state), 84000000);
@@ -66,32 +66,32 @@ class Race extends React.Component {
       this.callAPI();
       console.log('performed api call for '.concat(this.props.race.demId));
     }
-    
-    this.setState({
-      demPercent: (this.state.demOnHand / (this.state.demOnHand + this.state.repOnHand)) * 100,
-      repPercent: (this.state.repOnHand / (this.state.demOnHand + this.state.repOnHand)) * 100
-    });
   }
 
   render() {
+
+    let demValue = this.props.onHand ? this.state.demOnHand : this.state.demTotal;
+    let repValue = this.props.onHand ? this.state.repOnHand : this.state.repTotal;
+    
     return (
-      <div className='barBackground'>
-      {/*  <p>
-          Democrat: {this.state.demName} has <NumberFormat value={this.state.demOnHand} displayType={'text'} thousandSeparator={true} prefix={'$'} /> on hand.
-        </p>
-        <p>
-          Republican: {this.state.repName} has <NumberFormat value={this.state.repOnHand} displayType={'text'} thousandSeparator={true} prefix={'$'} /> on hand.
-      </p> */}
-        <img src={require('../images/' + this.props.race.demImg)} alt={this.state.repName}  className='portrait' />
-        <div className='barBackground'>
-          <div className='barDem' style={{width: (this.state.demOnHand / (this.state.demOnHand + this.state.repOnHand))*100 + '%'}}>  
-            <NumberFormat value={this.state.demOnHand} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+      <div>
+        <div className='barBackground'> 
+          {/* style={{height: (demValue + repValue) / 150000}} */}
+        
+          <div className='barDem' style={{width: (demValue / (demValue + repValue))*100 + '%'}}> 
+          
+            <img src={require('../images/' + this.props.race.demImg)} alt={this.state.repName}  className='portrait' />
+            <NumberFormat value={demValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+            
           </div>
-          <div className='barRep' style={{width: (this.state.repOnHand / (this.state.demOnHand + this.state.repOnHand))*100 + '%'}}>  
-            <NumberFormat value={this.state.repOnHand} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+          
+          <div className='barRep' style={{width: (repValue / (demValue + repValue))*100 + '%'}}>  
+          
+            <NumberFormat value={repValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+            <img src={require('../images/' + this.props.race.repImg)} alt={this.state.repName} className='portrait' />
+            
           </div>
         </div>
-  <img src={require('../images/' + this.props.race.repImg)} alt={this.state.repName} className='portrait' />
       </div>
     )
   }

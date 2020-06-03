@@ -2,9 +2,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, 'StateFaceRegular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
 }
 
 code {
@@ -13,8 +14,71 @@ code {
 }
 
 .raceList {
+  /*margin: auto;
+  width: 60%;
+  padding: 10px;*/
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
+  display: table;
+  height: 100%;
+  width: 70%;
+}
+
+.row {
+  display: table-row;
+}
+
+.state {
+  text-align: center;
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.raceInfo {
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.barBackground {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   padding: 10px;
+  vertical-align: middle;
+}
+
+.barDem {
+  width: 50%;
+  height: 30px;
+  background-color: #3571C0;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+}
+
+.barRep {
+  width: 50%;
+  height: 30px;
+  background-color: #FE5C40;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+}
+
+.portrait {
+  /*border: 1px solid black;*/
+  width: 60px;
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: 'StateFaceRegular';
+  src: url('./font/webfont/stateface-regular-webfont.eot');
+  src: url('./font/webfont/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./font/webfont/stateface-regular-webfont.woff') format('woff'),
+       url('./font/webfont/stateface-regular-webfont.ttf') format('truetype'),
+       url('./font/webfont/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }

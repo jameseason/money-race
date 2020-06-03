@@ -9,15 +9,19 @@ class Race extends React.Component {
     demName: '',
     demOnHand: 0,
     demTotal: 0,
+    demPercent: 0,
     repName: '',
     repOnHand: 0,
-    repTotal: 0
+    repTotal: 0,
+    repPercent: 0
   };
 
   /**
   * Perform API calls to populate the state
   */
   callAPI() {
+    const ls = require('localstorage-ttl');
+
     // democrat
     fetch('https://api.open.fec.gov/v1/candidate/' + this.props.race.demId + '/totals/?cycle=2020&page=1&api_key=' + this.state.apiKey)
       .then(res => res.json())
@@ -25,8 +29,10 @@ class Race extends React.Component {
         this.setState({
           demName: this.props.race.demName,
           demOnHand: data.results[0].last_cash_on_hand_end_period,
-          demTotal: data.results[0].receipts
-        })
+          demTotal: data.results[0].receipts,
+        });
+
+        ls.set(this.props.race.demId, JSON.stringify(this.state), 84000000);
       })
       .catch(console.log)
       
@@ -40,15 +46,15 @@ class Race extends React.Component {
           repOnHand: data.results[0].last_cash_on_hand_end_period,
           repTotal: data.results[0].receipts
         });
-        
-        // Store state after this call
-        const ls = require('localstorage-ttl');
+
         ls.set(this.props.race.demId, JSON.stringify(this.state), 84000000);
       })
       .catch(console.log)  
   }
   
   componentDidMount() {
+    
+    //localStorage.removeItem(this.props.race.demId)
 
     const ls = require('localstorage-ttl');
     const s = ls.get(this.props.race.demId);
@@ -60,18 +66,32 @@ class Race extends React.Component {
       this.callAPI();
       console.log('performed api call for '.concat(this.props.race.demId));
     }
+    
+    this.setState({
+      demPercent: (this.state.demOnHand / (this.state.demOnHand + this.state.repOnHand)) * 100,
+      repPercent: (this.state.repOnHand / (this.state.demOnHand + this.state.repOnHand)) * 100
+    });
   }
 
   render() {
     return (
-      <div>
-        <h1>{this.props.race.state}</h1>
-        <p>
+      <div className='barBackground'>
+      {/*  <p>
           Democrat: {this.state.demName} has <NumberFormat value={this.state.demOnHand} displayType={'text'} thousandSeparator={true} prefix={'$'} /> on hand.
         </p>
         <p>
           Republican: {this.state.repName} has <NumberFormat value={this.state.repOnHand} displayType={'text'} thousandSeparator={true} prefix={'$'} /> on hand.
-        </p>
+      </p> */}
+        <img src={require('../images/' + this.props.race.demImg)} alt={this.state.repName}  className='portrait' />
+        <div className='barBackground'>
+          <div className='barDem' style={{width: (this.state.demOnHand / (this.state.demOnHand + this.state.repOnHand))*100 + '%'}}>  
+            <NumberFormat value={this.state.demOnHand} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+          </div>
+          <div className='barRep' style={{width: (this.state.repOnHand / (this.state.demOnHand + this.state.repOnHand))*100 + '%'}}>  
+            <NumberFormat value={this.state.repOnHand} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+          </div>
+        </div>
+  <img src={require('../images/' + this.props.race.repImg)} alt={this.state.repName} className='portrait' />
       </div>
     )
   }

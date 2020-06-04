@@ -1,94 +1,95 @@
 import React, {Component} from 'react';
 import Race from './components/Race';
+import Controller from './components/Controller';
 
 class App extends Component {
   
   state = {
     
-    onHand: "true",
+    onHand: true,
+    includeTossup: true,
+    includeLean: true,
+    includeLikely: true,
+    includeSolid: false,
     
-    races: [
-      {
-        state: 'Maine',
-        stateAbbrev: 'me',
-
-        demId: 'S0ME00111',
-        demName: 'Sara Gideon',
-        demImg: 'sara-gideon.png',
-
-        repId: 'S6ME00159',
-        repName: 'Susan Collins',
-        repImg: 'susan-collins.png',
-      },
-      {
-        state: 'North Carolina',
-        stateAbbrev: 'nc',
-
-        demId: 'S0NC00202',
-        demName: 'Cal Cunningham',
-        demImg: 'cal-cunningham.png',
-
-        repId: 'S4NC00162',
-        repName: 'Thom Tillis',
-        repImg: 'thom-tillis.png',
-      },
-      {
-        state: 'Arizona',
-        stateAbbrev: 'az',
-        demId: 'S0AZ00350',
-
-        demName: 'Mark Kelly',
-        demImg: 'mark-kelly.png',
-
-        repId: 'S8AZ00221',
-        repName: 'Martha McSally',
-        repImg: 'martha-mcsally.png',
-      },
-      {
-        state: 'Colorado',
-        stateAbbrev: 'co',
-
-        demId: 'S0CO00575',
-        demName: 'John Hickenlooper',
-        demImg: 'john-hickenlooper.png',
-
-        repId: 'S4CO00395',
-        repName: 'Cory Gardner',
-        repImg: 'cory-gardner.png',
-      }
-    ]
+    races: require('./data/candidateInfo.js').default.races,
   };
+
+  constructor(props) {
+    super(props);
+
+    this.setOnHand = this.setOnHand.bind(this);
+    this.toggleTossup = this.toggleTossup.bind(this);
+    this.toggleLean = this.toggleLean.bind(this);
+    this.toggleLikely = this.toggleLikely.bind(this);
+    this.toggleSolid = this.toggleSolid.bind(this);
+  }
   
   setOnHand(event) {
     this.setState({
       onHand: (event.target.value === "true")
     });
   }
+
+  toggleTossup(event) {
+    this.setState({
+      includeTossup: !this.state.includeTossup
+    });
+  }
+  toggleLean(event) {
+    this.setState({
+      includeLean: !this.state.includeLean
+    });
+  }
+  toggleLikely(event) {
+    this.setState({
+      includeLikely: !this.state.includeLikely
+    });
+  }
+  toggleSolid(event) {
+    this.setState({
+      includeSolid: !this.state.includeSolid
+    });
+  }
+  
+  isVisible(rating) {
+    if (rating === "tossup") {
+      return this.state.includeTossup;
+    }
+    if (rating === "leanDem" || rating === "leanRep") {
+      return this.state.includeLean;
+    }
+    if (rating === "likelyDem" || rating === "likelyRep") {
+      return this.state.includeLikely;
+    }
+    if (rating === "solidDem" || rating === "solidRep") {
+      return this.state.includeSolid;
+    }
+    return false;
+  }
   
   render() {
     return (
       <div>
       <center><h1>2020 Senate Money Race</h1>
-      <p>Money raised by each 2020 Senate candidate, rounded to the nearest dollar. Data is from the most recent FEC filing.</p></center>
+      <p>
+        Money raised by each 2020 Senate candidate, rounded to the nearest dollar.
+        State silhouettes are colored according to Politico's race predictions.
+      </p></center>
       
-      <div className="btn-group btn-group-toggle" data-toggle="buttons" onChange={event => this.setOnHand(event)}>
-        <label className="btn btn-secondary active">
-          Cash on Hand
-          <input type="radio" value="true" name="options" id="option1" autoComplete="off" defaultChecked />
-        </label>
-        <label className="btn btn-secondary">
-          Total Raised
-          <input type="radio" value="false" name="options" id="option2" autoComplete="off" />
-        </label>
-      </div>
+      <Controller onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
+                  toggleTossup = {this.toggleTossup} includeTossup = {this.state.includeTossup} 
+                  toggleLean = {this.toggleLean} includeLean = {this.state.includeLean}
+                  toggleLikely = {this.toggleLikely} includeLikely = {this.state.includeLikely}
+                  toggleSolid = {this.toggleSolid} includeSolid = {this.state.includeSolid} />
       
       <div className="raceList">
         {this.state.races.map(race => (
         
         
-          <div className="row" key={race.stateAbbrev}>
+          <div className={`row ${this.isVisible(race.rating) ? "" : "hidden"}`} key={race.stateAbbrev}>
           
-            <div className="state">
+            <div className={`state ${race.rating}`}>
               <span className={"stateface stateface-" + race.stateAbbrev}></span>
             </div>
             
@@ -100,6 +101,12 @@ class App extends Component {
           
         ))}
       </div>
+      
+      
+      <center><p>
+        Data is from the most recent FEC filing.
+        In cases where the primary is not decided, the contender with the most cash on hand is used.
+      </p></center>
       </div>
     )
   }

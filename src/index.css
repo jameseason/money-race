@@ -21,6 +21,8 @@ code {
   display: table;
   height: 100%;
   width: 70%;
+  
+  table-layout: fixed;
 }
 
 .row {
@@ -32,12 +34,14 @@ code {
   margin: auto;
   display: table-cell;
   vertical-align: middle;
+  width: 25%
 }
 
 .raceInfo {
   margin: auto;
   display: table-cell;
   vertical-align: middle;
+  width: 75%
 }
 
 .barBackground {
@@ -49,6 +53,7 @@ code {
   height: 65px;
 }
 
+/* dotted line */
 .barBackground:after{
     content:"";
     position: relative;
@@ -66,6 +71,12 @@ code {
   text-align: left;
   color: white;
   vertical-align: middle;
+  
+  transition: width 1.5s;
+}
+
+.hidden {
+  display: none;
 }
 
 .barRep {
@@ -74,11 +85,32 @@ code {
   text-align: right;
   color: white;
   vertical-align: middle;
+  transition: width 1.5s;
 }
 
 .portrait {
   height: 65px;
   vertical-align: middle;
+}
+
+.likelyRep {
+  color: #ff896d;
+}
+
+.leanRep {
+  color: #ffb19c;
+}
+
+.tossup {
+  color: #b1b4bd;
+}
+
+.leanDem {
+  color: #a4b5e0;
+}
+
+.likelyDem {
+  color: #7392d0;
 }
 
 @font-face {

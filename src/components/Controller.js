@@ -20,7 +20,7 @@ class Controller extends React.Component {
         
         {/* Filter by race rating */}
         <div>
-          <p>Race ratings to include:</p>
+          <p>Race ratings to include: <br />
           <button type="button" className={`btn btn-${this.props.includeTossup ? "secondary active" : "outline-secondary"}`} 
                   onClick={event => this.props.toggleTossup(event)}>Tossup</button>
           <button type="button" className={`btn btn-${this.props.includeLean ? "secondary active" : "outline-secondary"}`} 
@@ -29,6 +29,7 @@ class Controller extends React.Component {
                   onClick={event => this.props.toggleLikely(event)}>Likely</button>
           <button type="button" className={`btn btn-${this.props.includeSolid ? "secondary active" : "outline-secondary"}`} 
                   onClick={event => this.props.toggleSolid(event)}>Solid</button>
+          </p>
         </div>
       </div>
     )

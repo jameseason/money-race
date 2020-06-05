@@ -75,22 +75,27 @@ class Race extends React.Component {
     
     return (
       <div>
+        <div className='stateName'>&nbsp;{this.props.race.state}&nbsp;</div>
         <div className='barBackground'> 
           {/* style={{height: (demValue + repValue) / 150000}} */}
         
           <div className='barDem' style={{width: (demValue / (demValue + repValue))*100 + '%'}}> 
           
-            <img src={require('../images/' + this.props.race.demImg)} alt={this.state.repName}  className='portrait' />
-            <NumberFormat value={demValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+            <img src={require('../images/' + this.props.race.demImg)} alt={this.state.repName}  className='portrait demPortrait' />
+            <NumberFormat className='demDollarAmt' value={demValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
             
           </div>
-          
+
           <div className='barRep' style={{width: (repValue / (demValue + repValue))*100 + '%'}}>  
           
-            <NumberFormat value={repValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
-            <img src={require('../images/' + this.props.race.repImg)} alt={this.state.repName} className='portrait' />
+            <NumberFormat className='repDollarAmt' value={repValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
+            <img src={require('../images/' + this.props.race.repImg)} alt={this.state.repName} className='portrait repPortrait' />
             
           </div>
+        </div>
+        <div>
+          <div className="demName">{this.state.demName}</div>
+          <div className="repName">{this.state.repName}</div>
         </div>
       </div>
     )

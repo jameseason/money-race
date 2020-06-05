@@ -77,11 +77,14 @@ class App extends Component {
         State silhouettes are colored according to Politico's race predictions.
       </p></center>
       
-      <Controller onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
+      <div className = "sidenav">
+        <Controller 
+                  onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
                   toggleTossup = {this.toggleTossup} includeTossup = {this.state.includeTossup} 
                   toggleLean = {this.toggleLean} includeLean = {this.state.includeLean}
                   toggleLikely = {this.toggleLikely} includeLikely = {this.state.includeLikely}
                   toggleSolid = {this.toggleSolid} includeSolid = {this.state.includeSolid} />
+      </div>
       
       <div className="raceList">
         {this.state.races.map(race => (

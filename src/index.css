@@ -17,7 +17,7 @@ code {
   /*margin: auto;
   width: 60%;
   padding: 10px;*/
-  margin: auto;
+  margin-left: 250px;
   display: table;
   height: 100%;
   width: 70%;
@@ -47,6 +47,7 @@ code {
 .barBackground {
   display: flex;
   justify-content: flex-end;
+  position: relative;
   width: 100%;
   padding: 0px;
   vertical-align: middle;
@@ -91,6 +92,27 @@ code {
 .portrait {
   height: 65px;
   vertical-align: middle;
+  position: absolute;
+}
+
+.repPortrait {
+  right: 2px; /* 2px to offset middle line */
+}
+
+.demPortrait {
+  left: 0;
+}
+
+.demDollarAmt {
+  position: absolute;
+  left: 12%;
+  top: 25%
+}
+
+.repDollarAmt {
+  position: absolute;
+  right: 12%;
+  top: 25%
 }
 
 .likelyRep {
@@ -111,6 +133,34 @@ code {
 
 .likelyDem {
   color: #7392d0;
+}
+
+.sidenav {
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.demName {
+  float: left;
+}
+
+.repName {
+  float: right;
+}
+
+.stateName {
+  border: 1px solid #000000;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  border-bottom: 0px;
 }
 
 @font-face {

@@ -115,6 +115,10 @@ code {
   top: 25%
 }
 
+.solidRep {
+  color: #FE5C40;
+}
+
 .likelyRep {
   color: #ff896d;
 }
@@ -133,6 +137,10 @@ code {
 
 .likelyDem {
   color: #7392d0;
+}
+
+.solidDem {
+  color: #3571C0;
 }
 
 .sidenav {

@@ -299,5 +299,161 @@ export default {
         repName: 'James DeMartino',
         repImg: 'republican-solid.png'
       },
+      {
+        state: 'Idaho',
+        stateAbbrev: 'id',
+        rating: 'solidRep',
+        
+        demId: 'S0ID00180',
+        demName: 'Paulette Jordan',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S8ID00092',
+        repName: 'James Risch',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Wyoming',
+        stateAbbrev: 'wy',
+        rating: 'solidRep',
+        
+        demId: 'S0WY00129',
+        demName: 'Yana Ludwig',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S0WY00137',
+        repName: 'Cynthia Lummis',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'South Dakota',
+        stateAbbrev: 'sd',
+        rating: 'solidRep',
+        
+        demId: 'S0SD00070',
+        demName: 'Dan Ahlers',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S4SD00049',
+        repName: 'Mike Rounds',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Nebraska',
+        stateAbbrev: 'ne',
+        rating: 'solidRep',
+        
+        demId: 'S8NE00216',
+        demName: 'Chris Janicek',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S4NE00090',
+        repName: 'Ben Sasse',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Oklahoma',
+        stateAbbrev: 'ok',
+        rating: 'solidRep',
+        
+        demId: 'S0OK00370',
+        demName: 'Abby Broyles',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S4OK00083',
+        repName: 'Jim Inhofe',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Arkansas',
+        stateAbbrev: 'ar',
+        rating: 'solidRep',
+        
+        demId: 'S0AR00218',
+        demName: 'Dan Whitfield',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S4AR00103',
+        repName: 'Tom Cotton',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Louisiana',
+        stateAbbrev: 'la',
+        rating: 'solidRep',
+        
+        demId: 'S0LA00311',
+        demName: 'Antoine Pierce',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S4LA00107',
+        repName: 'Bill Cassidy',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Illinois',
+        stateAbbrev: 'il',
+        rating: 'solidDem',
+        
+        demId: 'S6IL00151',
+        demName: 'Dick Durban',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S0IL00543',
+        repName: 'Mark Curran',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'West Virginia',
+        stateAbbrev: 'wv',
+        rating: 'solidRep',
+        
+        demId: 'S0WV00215',
+        demName: 'Paula Jean Swearengin',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S4WV00159',
+        repName: 'Shelley Moore Capito',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'New Jersey',
+        stateAbbrev: 'nj',
+        rating: 'solidDem',
+        
+        demId: 'S4NJ00185',
+        demName: 'Cory Booker',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S0NJ00217',
+        repName: 'Rikin Mehta',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Massachusetts',
+        stateAbbrev: 'ma',
+        rating: 'solidDem',
+        
+        demId: 'S0MA00208',
+        demName: 'Joe Kennedy',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S0MA00232',
+        repName: 'Kevin O\'Connor',
+        repImg: 'republican-solid.png'
+      },
+      {
+        state: 'Rhode Island',
+        stateAbbrev: 'ri',
+        rating: 'solidDem',
+        
+        demId: 'S6RI00163',
+        demName: 'John Reed',
+        demImg: 'democrat-solid.png',
+        
+        repId: 'S0RI00067',
+        repName: 'Allen Waters',
+        repImg: 'republican-solid.png'
+      },
     ]
 };

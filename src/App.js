@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Race from './components/Race';
 import Controller from './components/Controller';
+import Sort from './components/Sort';
 
 class App extends Component {
   
@@ -11,6 +12,7 @@ class App extends Component {
     includeLean: true,
     includeLikely: true,
     includeSolid: false,
+    sortBy: 'state',
     
     races: require('./data/candidateInfo.js').default.races,
   };
@@ -19,6 +21,7 @@ class App extends Component {
     super(props);
 
     this.setOnHand = this.setOnHand.bind(this);
+    this.setSortBy = this.setSortBy.bind(this);
     this.toggleTossup = this.toggleTossup.bind(this);
     this.toggleLean = this.toggleLean.bind(this);
     this.toggleLikely = this.toggleLikely.bind(this);
@@ -28,6 +31,12 @@ class App extends Component {
   setOnHand(event) {
     this.setState({
       onHand: (event.target.value === "true")
+    });
+  }
+  
+  setSortBy(event) {
+    this.setState({
+      sortBy: event.target.value
     });
   }
 
@@ -80,6 +89,7 @@ class App extends Component {
       <div className = "sidenav">
         <Controller 
                   onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
+                  sortByHandler = {this.setSortBy} sortBy = {this.state.sortBy}
                   toggleTossup = {this.toggleTossup} includeTossup = {this.state.includeTossup} 
                   toggleLean = {this.toggleLean} includeLean = {this.state.includeLean}
                   toggleLikely = {this.toggleLikely} includeLikely = {this.state.includeLikely}
@@ -87,10 +97,11 @@ class App extends Component {
       </div>
       
       <div className="raceList">
+        <Sort by={this.state.sortBy}>
         {this.state.races.map(race => (
         
         
-          <div className={`row ${this.isVisible(race.rating) ? "" : "hidden"}`} key={race.stateAbbrev}>
+          <div rating={race.rating} state={race.state} className={`row ${this.isVisible(race.rating) ? "" : "hidden"}`} key={race.stateAbbrev}>
           
             <div className={`state ${race.rating}`}>
               <span className={"stateface stateface-" + race.stateAbbrev}></span>
@@ -103,6 +114,7 @@ class App extends Component {
           </div>
           
         ))}
+        </Sort>
       </div>
       
       

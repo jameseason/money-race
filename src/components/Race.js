@@ -61,7 +61,6 @@ class Race extends React.Component {
 
     if (s != null) {
       this.setState(JSON.parse(s));
-      console.log('grabbed from storage '.concat(this.props.race.demId));
     } else {
       this.callAPI();
       console.log('performed api call for '.concat(this.props.race.demId));

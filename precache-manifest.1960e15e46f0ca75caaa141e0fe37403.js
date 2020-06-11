@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0b1ccfff55f090f06f3a5106e03b007",
+    "revision": "5f0089d74075288a6a3493bf118c6d47",
     "url": "/money-race/index.html"
   },
   {
-    "revision": "3443436ff3ea768de982",
-    "url": "/money-race/static/css/main.9a03a943.chunk.css"
+    "revision": "8d0a389bce0b9230816b",
+    "url": "/money-race/static/css/main.6feebca1.chunk.css"
   },
   {
-    "revision": "d65213463742ec3b10bd",
-    "url": "/money-race/static/js/2.778b4b14.chunk.js"
+    "revision": "b26451a79df7685d228a",
+    "url": "/money-race/static/js/2.8d25fd90.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/money-race/static/js/2.778b4b14.chunk.js.LICENSE.txt"
+    "url": "/money-race/static/js/2.8d25fd90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3443436ff3ea768de982",
-    "url": "/money-race/static/js/main.c6d039be.chunk.js"
+    "revision": "8d0a389bce0b9230816b",
+    "url": "/money-race/static/js/main.32647407.chunk.js"
   },
   {
     "revision": "150c06fe47cb26788288",

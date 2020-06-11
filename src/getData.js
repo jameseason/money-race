@@ -1,6 +1,7 @@
 export const getData = (setRaces) => {
   
-  // check local storage first. uncomment the following to force an API call: // localStorage.removeItem('raceInfo');
+  // check local storage first. uncomment the following to force an API call: // 
+  localStorage.removeItem('raceInfo');
   const ls = require('localstorage-ttl');
   const storageResults = ls.get('raceInfo');
   if (storageResults != null) {

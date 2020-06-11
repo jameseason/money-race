@@ -99,7 +99,7 @@ export default {
         
         repId: 'S2TX00106',
         repName: 'John Cornyn',
-        repImg: 'republican-solid.png',
+        repImg: 'john-cornyn.png',
         repOnHand: 0,
         repTotal: 0,
       },
@@ -109,14 +109,14 @@ export default {
         rating: 'leanRep',
         
         demId: 'S8GA00180',
-        demName: 'Jonathan Ossoff',
-        demImg: 'democrat-solid.png',
+        demName: 'Jon Ossoff',
+        demImg: 'jon-ossoff.png',
         demOnHand: 0,
         demTotal: 0,
         
         repId: 'S4GA11285',
         repName: 'David Perdue',
-        repImg: 'republican-solid.png',
+        repImg: 'david-perdue.png',
         repOnHand: 0,
         repTotal: 0,
       },
@@ -133,7 +133,7 @@ export default {
         
         repId: 'S0GA00526',
         repName: 'Kelly Loeffler',
-        repImg: 'republican-solid.png',
+        repImg: 'kelly-loeffler.png',
         repOnHand: 0,
         repTotal: 0,
       },
@@ -161,13 +161,13 @@ export default {
         
         demId: 'S0IA00176',
         demName: 'Theresa Greenfield',
-        demImg: 'democrat-solid.png',
+        demImg: 'theresa-greenfield.png',
         demOnHand: 0,
         demTotal: 0,
         
         repId: 'S4IA00129',
         repName: 'Joni Ernst',
-        repImg: 'republican-solid.png',
+        repImg: 'joni-ernst.png',
         repOnHand: 0,
         repTotal: 0,
       },
@@ -178,7 +178,7 @@ export default {
         
         demId: 'S0AL00156',
         demName: 'Doug Jones',
-        demImg: 'democrat-solid.png',
+        demImg: 'doug-jones.png',
         demOnHand: 0,
         demTotal: 0,
         
@@ -297,13 +297,13 @@ export default {
         
         demId: 'S0SC00289',
         demName: 'Jaime Harrison',
-        demImg: 'democrat-solid.png',
+        demImg: 'jaime-harrison.png',
         demOnHand: 0,
         demTotal: 0,
         
         repId: 'S0SC00149',
         repName: 'Lindsey Graham',
-        repImg: 'republican-solid.png',
+        repImg: 'lindsey-graham.png',
         repOnHand: 0,
         repTotal: 0,
       },

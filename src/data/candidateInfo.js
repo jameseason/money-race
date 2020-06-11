@@ -1,4 +1,5 @@
 export default {
+    // TODO: evaluate if it makes more sense to get more of this info from the FEC api
     races: [
       {
         state: 'Maine',

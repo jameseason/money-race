@@ -8,10 +8,14 @@ export default {
         demId: 'S0ME00111',
         demName: 'Sara Gideon',
         demImg: 'sara-gideon.png',
+        demOnHand: 0,
+        demTotal: 0,
 
         repId: 'S6ME00159',
         repName: 'Susan Collins',
         repImg: 'susan-collins.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'North Carolina',
@@ -21,10 +25,14 @@ export default {
         demId: 'S0NC00202',
         demName: 'Cal Cunningham',
         demImg: 'cal-cunningham.png',
+        demOnHand: 0,
+        demTotal: 0,
 
         repId: 'S4NC00162',
         repName: 'Thom Tillis',
         repImg: 'thom-tillis.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Arizona',
@@ -34,10 +42,14 @@ export default {
 
         demName: 'Mark Kelly',
         demImg: 'mark-kelly.png',
+        demOnHand: 0,
+        demTotal: 0,
 
         repId: 'S8AZ00221',
         repName: 'Martha McSally',
         repImg: 'martha-mcsally.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Colorado',
@@ -47,10 +59,14 @@ export default {
         demId: 'S0CO00575',
         demName: 'John Hickenlooper',
         demImg: 'john-hickenlooper.png',
+        demOnHand: 0,
+        demTotal: 0,
 
         repId: 'S4CO00395',
         repName: 'Cory Gardner',
         repImg: 'cory-gardner.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Montana',
@@ -60,10 +76,14 @@ export default {
         demId: 'S0MT00173',
         demName: 'Steve Bullock',
         demImg: 'steve-bullock.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S2MT00096',
         repName: 'Steve Daines',
-        repImg: 'steve-daines.png'
+        repImg: 'steve-daines.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Texas',
@@ -73,10 +93,14 @@ export default {
         demId: 'S0TX00233',
         demName: 'MJ Hegar',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S2TX00106',
         repName: 'John Cornyn',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Georgia',
@@ -86,10 +110,14 @@ export default {
         demId: 'S8GA00180',
         demName: 'Jonathan Ossoff',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4GA11285',
         repName: 'David Perdue',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Georgia',
@@ -99,10 +127,14 @@ export default {
         demId: 'S0GA00559',
         demName: 'Raphael Warnock',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0GA00526',
         repName: 'Kelly Loeffler',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Michigan',
@@ -112,10 +144,14 @@ export default {
         demId: 'S4MI00355',
         demName: 'Gary Peters',
         demImg: 'gary-peters.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S8MI00372',
         repName: 'John James',
-        repImg: 'john-james.png'
+        repImg: 'john-james.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Iowa',
@@ -125,10 +161,14 @@ export default {
         demId: 'S0IA00176',
         demName: 'Theresa Greenfield',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4IA00129',
         repName: 'Joni Ernst',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Alabama',
@@ -138,10 +178,14 @@ export default {
         demId: 'S0AL00156',
         demName: 'Doug Jones',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S6AL00195',
         repName: 'Jeff Sessions',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Kentucky',
@@ -151,10 +195,14 @@ export default {
         demId: 'S0KY00339',
         demName: 'Amy McGrath',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S2KY00012',
         repName: 'Mitch McConnell',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'New Hampshire',
@@ -164,10 +212,14 @@ export default {
         demId: 'S0NH00219',
         demName: 'Jeanne Shaheen',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0NH00334',
         repName: 'Corky Messner',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Alaska',
@@ -177,10 +229,14 @@ export default {
         demId: 'S0AK00196',
         demName: 'Al Gross',
         demImg: 'al-gross.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4AK00214',
         repName: 'Dan Sullivan',
-        repImg: 'dan-sullivan.png'
+        repImg: 'dan-sullivan.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Kansas',
@@ -190,10 +246,14 @@ export default {
         demId: 'S0KS00323',
         demName: 'Barbara Bollier',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0KS00349',
         repName: 'Bob Hamilton',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Tennessee',
@@ -203,10 +263,14 @@ export default {
         demId: 'S8TN00311',
         demName: 'James Mackler',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0TN00169',
         repName: 'Bill Hagerty',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Mississippi',
@@ -216,10 +280,14 @@ export default {
         demId: 'S8MS00287',
         demName: 'Michael Espy',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S8MS00261',
         repName: 'Cindy Hyde-Smith',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'South Carolina',
@@ -229,10 +297,14 @@ export default {
         demId: 'S0SC00289',
         demName: 'Jaime Harrison',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0SC00149',
         repName: 'Lindsey Graham',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Oregon',
@@ -242,10 +314,14 @@ export default {
         demId: 'S8OR00207',
         demName: 'Jeffrey Merkley',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4OR00156',
         repName: 'Jo Rae Perkins',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'New Mexico',
@@ -255,10 +331,14 @@ export default {
         demId: 'S0NM00058',
         demName: 'Ben Ray Lujan',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0NM00124',
         repName: 'Mark Ronchetti',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Minnesota',
@@ -268,10 +348,14 @@ export default {
         demId: 'S8MN00578',
         demName: 'Tina Smith',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0MN00328',
         repName: 'Jason Lewis',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Virginia',
@@ -281,10 +365,14 @@ export default {
         demId: 'S6VA00093',
         demName: 'Mark Warner',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0VA00146',
         repName: 'Daniel Gade',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Delaware',
@@ -294,10 +382,14 @@ export default {
         demId: 'S0DE00092',
         demName: 'Chris Coons',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0DE00191',
         repName: 'James DeMartino',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Idaho',
@@ -307,10 +399,14 @@ export default {
         demId: 'S0ID00180',
         demName: 'Paulette Jordan',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S8ID00092',
         repName: 'James Risch',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Wyoming',
@@ -320,10 +416,14 @@ export default {
         demId: 'S0WY00129',
         demName: 'Yana Ludwig',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0WY00137',
         repName: 'Cynthia Lummis',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'South Dakota',
@@ -333,10 +433,14 @@ export default {
         demId: 'S0SD00070',
         demName: 'Dan Ahlers',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4SD00049',
         repName: 'Mike Rounds',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Nebraska',
@@ -346,10 +450,14 @@ export default {
         demId: 'S8NE00216',
         demName: 'Chris Janicek',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4NE00090',
         repName: 'Ben Sasse',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Oklahoma',
@@ -359,10 +467,14 @@ export default {
         demId: 'S0OK00370',
         demName: 'Abby Broyles',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4OK00083',
         repName: 'Jim Inhofe',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Arkansas',
@@ -372,10 +484,14 @@ export default {
         demId: 'S0AR00218',
         demName: 'Dan Whitfield',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4AR00103',
         repName: 'Tom Cotton',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Louisiana',
@@ -385,10 +501,14 @@ export default {
         demId: 'S0LA00311',
         demName: 'Antoine Pierce',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4LA00107',
         repName: 'Bill Cassidy',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Illinois',
@@ -398,10 +518,14 @@ export default {
         demId: 'S6IL00151',
         demName: 'Dick Durban',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0IL00543',
         repName: 'Mark Curran',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'West Virginia',
@@ -411,10 +535,14 @@ export default {
         demId: 'S0WV00215',
         demName: 'Paula Jean Swearengin',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S4WV00159',
         repName: 'Shelley Moore Capito',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'New Jersey',
@@ -424,10 +552,14 @@ export default {
         demId: 'S4NJ00185',
         demName: 'Cory Booker',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0NJ00217',
         repName: 'Rikin Mehta',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Massachusetts',
@@ -437,10 +569,14 @@ export default {
         demId: 'S0MA00208',
         demName: 'Joe Kennedy',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0MA00232',
         repName: 'Kevin O\'Connor',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
       {
         state: 'Rhode Island',
@@ -450,10 +586,14 @@ export default {
         demId: 'S6RI00163',
         demName: 'John Reed',
         demImg: 'democrat-solid.png',
+        demOnHand: 0,
+        demTotal: 0,
         
         repId: 'S0RI00067',
         repName: 'Allen Waters',
-        repImg: 'republican-solid.png'
+        repImg: 'republican-solid.png',
+        repOnHand: 0,
+        repTotal: 0,
       },
     ]
 };

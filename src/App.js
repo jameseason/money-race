@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import Race from './components/Race';
 import Controller from './components/Controller';
 import Sort from './components/Sort';
+import {getData} from './getData';
 
 class App extends Component {
   
   state = {
-    
     onHand: true,
     includeTossup: true,
     includeLean: true,
@@ -14,7 +14,7 @@ class App extends Component {
     includeSolid: false,
     sortBy: 'state',
     
-    races: require('./data/candidateInfo.js').default.races,
+    races: [],
   };
 
   constructor(props) {
@@ -26,6 +26,7 @@ class App extends Component {
     this.toggleLean = this.toggleLean.bind(this);
     this.toggleLikely = this.toggleLikely.bind(this);
     this.toggleSolid = this.toggleSolid.bind(this);
+    this.setRaces = this.setRaces.bind(this);
   }
   
   setOnHand(event) {
@@ -77,6 +78,16 @@ class App extends Component {
     return false;
   }
   
+  setRaces(raceInfo) {
+    this.setState({
+      races: raceInfo,
+    });
+  }
+  
+  componentDidMount() {
+    getData(this.setRaces);
+  }
+
   render() {
     return (
       <div>

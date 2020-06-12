@@ -5,7 +5,7 @@ This project is intended to display financial information for 2020 Senate candid
 * Financial information is pulled from the [FEC API](https://api.open.fec.gov/developers/)
 * Race ratings come from [Politico](https://www.politico.com/2020-election/race-forecasts-and-predictions/senate/)
 * State silhouettes come from [StateFace](https://propublica.github.io/stateface/)
-* Placeholder candidate portraits come from [FontAwesome](https://fontawesome.com/)
+* Various icons come from [FontAwesome](https://fontawesome.com/)
 
 ## Available Scripts
 

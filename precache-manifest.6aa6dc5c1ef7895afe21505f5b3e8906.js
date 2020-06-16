@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "906f85fd37cecd341b126ceff46f375c",
+    "revision": "0d78c4f0ef351c75cac648a16664d28f",
     "url": "/money-race/index.html"
   },
   {
-    "revision": "6396dae732f9b31ba289",
-    "url": "/money-race/static/css/main.3f27bb3a.chunk.css"
+    "revision": "500411b8cf86289ffb2d",
+    "url": "/money-race/static/css/main.40c9d353.chunk.css"
   },
   {
-    "revision": "ba1ea3fd709e39b20058",
-    "url": "/money-race/static/js/2.647a85e9.chunk.js"
+    "revision": "d84d0d0d7317b02270d1",
+    "url": "/money-race/static/js/2.9abaa896.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/money-race/static/js/2.647a85e9.chunk.js.LICENSE.txt"
+    "url": "/money-race/static/js/2.9abaa896.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6396dae732f9b31ba289",
-    "url": "/money-race/static/js/main.2bf270d8.chunk.js"
+    "revision": "500411b8cf86289ffb2d",
+    "url": "/money-race/static/js/main.7f003663.chunk.js"
   },
   {
     "revision": "150c06fe47cb26788288",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8d5f142e4d2e59ab3b4940d822709bf0",
     "url": "/money-race/static/media/martha-mcsally.8d5f142e.png"
+  },
+  {
+    "revision": "67ba915a398d325821eece25894ac65c",
+    "url": "/money-race/static/media/raphael-warnock.67ba915a.png"
   },
   {
     "revision": "cf7e602adc7b229b91106e94d1bd7280",

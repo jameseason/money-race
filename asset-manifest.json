@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/money-race/static/css/main.3f27bb3a.chunk.css",
-    "main.js": "/money-race/static/js/main.2bf270d8.chunk.js",
-    "main.js.map": "/money-race/static/js/main.2bf270d8.chunk.js.map",
+    "main.css": "/money-race/static/css/main.40c9d353.chunk.css",
+    "main.js": "/money-race/static/js/main.7f003663.chunk.js",
+    "main.js.map": "/money-race/static/js/main.7f003663.chunk.js.map",
     "runtime-main.js": "/money-race/static/js/runtime-main.c956a95a.js",
     "runtime-main.js.map": "/money-race/static/js/runtime-main.c956a95a.js.map",
-    "static/js/2.647a85e9.chunk.js": "/money-race/static/js/2.647a85e9.chunk.js",
-    "static/js/2.647a85e9.chunk.js.map": "/money-race/static/js/2.647a85e9.chunk.js.map",
+    "static/js/2.9abaa896.chunk.js": "/money-race/static/js/2.9abaa896.chunk.js",
+    "static/js/2.9abaa896.chunk.js.map": "/money-race/static/js/2.9abaa896.chunk.js.map",
     "index.html": "/money-race/index.html",
-    "precache-manifest.f02ed6d759d20db712ea6ac921b6fea1.js": "/money-race/precache-manifest.f02ed6d759d20db712ea6ac921b6fea1.js",
+    "precache-manifest.6aa6dc5c1ef7895afe21505f5b3e8906.js": "/money-race/precache-manifest.6aa6dc5c1ef7895afe21505f5b3e8906.js",
     "service-worker.js": "/money-race/service-worker.js",
-    "static/css/main.3f27bb3a.chunk.css.map": "/money-race/static/css/main.3f27bb3a.chunk.css.map",
-    "static/js/2.647a85e9.chunk.js.LICENSE.txt": "/money-race/static/js/2.647a85e9.chunk.js.LICENSE.txt",
+    "static/css/main.40c9d353.chunk.css.map": "/money-race/static/css/main.40c9d353.chunk.css.map",
+    "static/js/2.9abaa896.chunk.js.LICENSE.txt": "/money-race/static/js/2.9abaa896.chunk.js.LICENSE.txt",
     "static/media/al-gross.png": "/money-race/static/media/al-gross.a112ee77.png",
     "static/media/cal-cunningham.png": "/money-race/static/media/cal-cunningham.738cd5f5.png",
     "static/media/cory-gardner.png": "/money-race/static/media/cory-gardner.52e0fb97.png",
@@ -29,6 +29,7 @@
     "static/media/lindsey-graham.png": "/money-race/static/media/lindsey-graham.6402d584.png",
     "static/media/mark-kelly.png": "/money-race/static/media/mark-kelly.6d00a600.png",
     "static/media/martha-mcsally.png": "/money-race/static/media/martha-mcsally.8d5f142e.png",
+    "static/media/raphael-warnock.png": "/money-race/static/media/raphael-warnock.67ba915a.png",
     "static/media/sara-gideon.png": "/money-race/static/media/sara-gideon.cf7e602a.png",
     "static/media/index.css": "/money-race/static/media/stateface-regular-webfont.a30251b9.ttf",
     "static/media/steve-bullock.png": "/money-race/static/media/steve-bullock.ce837925.png",
@@ -39,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c956a95a.js",
-    "static/js/2.647a85e9.chunk.js",
-    "static/css/main.3f27bb3a.chunk.css",
-    "static/js/main.2bf270d8.chunk.js"
+    "static/js/2.9abaa896.chunk.js",
+    "static/css/main.40c9d353.chunk.css",
+    "static/js/main.7f003663.chunk.js"
   ]
 }

@@ -111,13 +111,15 @@ code {
 .demDollarAmt {
   position: absolute;
   left: 12%;
-  top: 25%
+  top: 25%;
+  font-weight: normal;
 }
 
 .repDollarAmt {
   position: absolute;
   right: 12%;
-  top: 25%
+  top: 25%;
+  font-weight: normal;
 }
 
 .solidRep {
@@ -155,7 +157,7 @@ code {
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 100px;
+  padding-top: 125px;
   padding-left: 5px;
 }
 
@@ -186,6 +188,31 @@ code {
   margin: auto;
   border-bottom: 0px;
 }
+
+/* rolling not used rn */
+.rolling {
+  display: inline;
+  cursor: pointer;
+  overflow:hidden;
+  transition: all 0.3s;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.rolling .rollingtext {
+  display: inline;
+  visibility: hidden;
+}
+
+.rolling:hover .rollingtext{
+  visibility: visible;
+}
+
+.rolling:hover {
+  border: 1px solid black;
+}
+
+
 
 @font-face {
   font-family: 'StateFaceRegular';

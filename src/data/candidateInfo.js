@@ -11,6 +11,7 @@ export default {
         demImg: 'sara-gideon.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/gideon2020',
 
         repId: 'S6ME00159',
         repName: 'Susan Collins',
@@ -28,6 +29,7 @@ export default {
         demImg: 'cal-cunningham.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/cal-website',
 
         repId: 'S4NC00162',
         repName: 'Thom Tillis',
@@ -45,6 +47,7 @@ export default {
         demImg: 'mark-kelly.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/mek-website',
 
         repId: 'S8AZ00221',
         repName: 'Martha McSally',
@@ -62,6 +65,7 @@ export default {
         demImg: 'john-hickenlooper.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/jwh',
 
         repId: 'S4CO00395',
         repName: 'Cory Gardner',
@@ -79,6 +83,7 @@ export default {
         demImg: 'steve-bullock.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/sb-homepage',
         
         repId: 'S2MT00096',
         repName: 'Steve Daines',
@@ -96,6 +101,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/mjh_website',
         
         repId: 'S2TX00106',
         repName: 'John Cornyn',
@@ -113,6 +119,7 @@ export default {
         demImg: 'jon-ossoff.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/ms_hp_ossoff',
         
         repId: 'S4GA11285',
         repName: 'David Perdue',
@@ -127,9 +134,10 @@ export default {
         
         demId: 'S0GA00559',
         demName: 'Raphael Warnock',
-        demImg: 'democrat-solid.png',
+        demImg: 'raphael-warnock.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/warnock-for-georgia_web',
         
         repId: 'S0GA00526',
         repName: 'Kelly Loeffler',
@@ -147,6 +155,7 @@ export default {
         demImg: 'gary-peters.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/gary-peters-2',
         
         repId: 'S8MI00372',
         repName: 'John James',
@@ -164,6 +173,7 @@ export default {
         demImg: 'theresa-greenfield.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/tg-website-2020',
         
         repId: 'S4IA00129',
         repName: 'Joni Ernst',
@@ -181,6 +191,7 @@ export default {
         demImg: 'doug-jones.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/jones-homepage1',
         
         repId: 'S6AL00195',
         repName: 'Jeff Sessions',

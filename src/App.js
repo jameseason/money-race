@@ -90,12 +90,13 @@ class App extends Component {
 
   render() {
     return (
+      
       <div>
-      <center><h1>2020 Senate Money Race</h1>
-      <p>
-        Money raised by each 2020 Senate candidate, rounded to the nearest dollar.
-        State silhouettes are colored according to Politico's race predictions.
-      </p></center>
+        <center><h1 className="display-4">2020 Senate Money Race</h1>
+        <p>Money raised by each 2020 Senate candidate, rounded to the nearest dollar.
+        State silhouettes are colored according to Politico's race predictions.</p></center>
+      
+      
       
       <div className = "sidenav">
         <Controller 

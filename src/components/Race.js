@@ -29,7 +29,13 @@ class Race extends React.Component {
           </div>
         </div>
         <div>
-          <div className="demName">{this.props.race.demName}</div>
+          <div className="demName">{this.props.race.demName} &nbsp;
+            { /* show donation link if there is one */
+              this.props.race.demDonate != null
+              ? <a href={this.props.race.demDonate}><i className="fas fa-donate"></i></a> 
+              : null
+            }
+          </div>
           <div className="repName">{this.props.race.repName}</div>
         </div>
       </div>

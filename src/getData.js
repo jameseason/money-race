@@ -46,6 +46,7 @@ export const getData = (setRaces) => {
         apiResults[result.candidate_id] = {
           total: result.receipts,
           onHand: result.cash_on_hand_end_period,
+          asOf: result.coverage_end_date,
         }
       }
 
@@ -53,8 +54,11 @@ export const getData = (setRaces) => {
       for (race of raceInfo) {
         race.demOnHand = apiResults[race.demId].onHand;
         race.demTotal = apiResults[race.demId].total;
+        race.demCoverageEnd = new Date(apiResults[race.demId].asOf).toDateString().substring(4);
+
         race.repOnHand = apiResults[race.repId].onHand;
         race.repTotal = apiResults[race.repId].total;
+        race.repCoverageEnd = new Date(apiResults[race.repId].asOf).toDateString().substring(4);
       }
       
       // store the api call for about a day

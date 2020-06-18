@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/money-race/precache-manifest.6aa6dc5c1ef7895afe21505f5b3e8906.js"
+  "/money-race/precache-manifest.7ee4057e69e2b3acee98435031e7496f.js"
 );
 
 self.addEventListener('message', (event) => {

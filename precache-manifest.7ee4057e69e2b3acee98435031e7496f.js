@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d78c4f0ef351c75cac648a16664d28f",
+    "revision": "636bff0c775cc23b5af0060597ede558",
     "url": "/money-race/index.html"
   },
   {
-    "revision": "500411b8cf86289ffb2d",
-    "url": "/money-race/static/css/main.40c9d353.chunk.css"
+    "revision": "79382b358c28ad07658f",
+    "url": "/money-race/static/css/main.5fc4f8c8.chunk.css"
   },
   {
     "revision": "d84d0d0d7317b02270d1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-race/static/js/2.9abaa896.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "500411b8cf86289ffb2d",
-    "url": "/money-race/static/js/main.7f003663.chunk.js"
+    "revision": "79382b358c28ad07658f",
+    "url": "/money-race/static/js/main.6a7593e2.chunk.js"
   },
   {
     "revision": "150c06fe47cb26788288",

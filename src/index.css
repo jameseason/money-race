@@ -94,18 +94,21 @@ code {
   transition: width 1.5s;
 }
 
-.portrait {
-  height: 65px;
+.barContents {
   vertical-align: middle;
   position: absolute;
 }
 
-.repPortrait {
-  right: 2px; /* 2px to offset middle line */
+.demContents {
+  left: 0;
 }
 
-.demPortrait {
-  left: 0;
+.portrait {
+  height: 65px;
+}
+
+.repContents {
+  right: 2px; /* 2px to offset middle line */
 }
 
 .demDollarAmt {

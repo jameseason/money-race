@@ -16,28 +16,27 @@ class Race extends React.Component {
 
           <div className='barDem' style={{width: (demValue / (demValue + repValue))*100 + '%'}}> 
           
-            <img src={require('../images/' + this.props.race.demImg)} alt={this.props.race.repName}  className='portrait demPortrait' />
+            <div className='barContents demContents'>
+              <img src={require('../images/' + this.props.race.demImg)} alt={this.props.race.demName} className='portrait' />
 
-            <span className='demDollarAmt'>
               <span className='hover'>
                 <NumberFormat value={demValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
                 <span className='hovertext coverageEndText'>As of {this.props.race.demCoverageEnd}</span>
               </span>
-            </span>
+            </div>
 
           </div>
 
           <div className='barRep' style={{width: (repValue / (demValue + repValue))*100 + '%'}}>  
 
-            <span className='repDollarAmt'>
+            <div className='barContents repContents'>
               <span className='hover'>
                 <NumberFormat value={repValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
                 <span className='hovertext coverageEndText'>As of {this.props.race.repCoverageEnd}</span>
               </span>
-            </span>
 
-            <img src={require('../images/' + this.props.race.repImg)} alt={this.props.race.repName} className='portrait repPortrait' />
-            
+              <img src={require('../images/' + this.props.race.repImg)} alt={this.props.race.repName} className='portrait' />
+            </div>
           </div>
         </div>
         

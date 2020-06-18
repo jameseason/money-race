@@ -88,6 +88,21 @@ class App extends Component {
     getData(this.setRaces);
   }
 
+  convertRatingString(str) {
+    switch(str) {
+      case "tossup": return "Tossup";
+      case "leanRep": return "Lean R";
+      case "leanDem": return "Lean D";
+      case "likelyRep": return "Likely R";
+      case "likelyDem": return "Likely D";
+      case "solidRep": return "Solid R";
+      case "solidDem": return "Solid D";
+      default:
+        console.log("invalid rating: " + str);
+        return "Invalid Rating";
+    }
+  }
+
   render() {
     return (
       
@@ -100,12 +115,12 @@ class App extends Component {
       
       <div className = "sidenav">
         <Controller 
-                  onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
-                  sortByHandler = {this.setSortBy} sortBy = {this.state.sortBy}
-                  toggleTossup = {this.toggleTossup} includeTossup = {this.state.includeTossup} 
-                  toggleLean = {this.toggleLean} includeLean = {this.state.includeLean}
-                  toggleLikely = {this.toggleLikely} includeLikely = {this.state.includeLikely}
-                  toggleSolid = {this.toggleSolid} includeSolid = {this.state.includeSolid} />
+          onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
+          sortByHandler = {this.setSortBy} sortBy = {this.state.sortBy}
+          toggleTossup = {this.toggleTossup} includeTossup = {this.state.includeTossup} 
+          toggleLean = {this.toggleLean} includeLean = {this.state.includeLean}
+          toggleLikely = {this.toggleLikely} includeLikely = {this.state.includeLikely}
+          toggleSolid = {this.toggleSolid} includeSolid = {this.state.includeSolid} />
       </div>
       
       <div className="raceList">
@@ -116,9 +131,9 @@ class App extends Component {
           <div rating={race.rating} state={race.state} className={`row ${this.isVisible(race.rating) ? "" : "hidden"}`} key={race.stateAbbrev}>
           
             <div className={`state ${race.rating}`}>
-              <span className={"stateface stateface-" + race.stateAbbrev}></span>
+              <span className={"stateface hover stateface-" + race.stateAbbrev}><span className="hovertext">{this.convertRatingString(race.rating)}</span></span>
             </div>
-            
+
             <div className="raceInfo">
               <Race key={race.demId} race={race} onHand={this.state.onHand} />
             </div>

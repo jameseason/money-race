@@ -209,6 +209,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/am-website',
         
         repId: 'S2KY00012',
         repName: 'Mitch McConnell',
@@ -226,6 +227,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/shaheen-website/',
         
         repId: 'S0NH00334',
         repName: 'Corky Messner',
@@ -243,6 +245,7 @@ export default {
         demImg: 'al-gross.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/algross-2020',
         
         repId: 'S4AK00214',
         repName: 'Dan Sullivan',
@@ -260,6 +263,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/bb4ks-web',
         
         repId: 'S0KS00349',
         repName: 'Bob Hamilton',
@@ -277,6 +281,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/mackler2020',
         
         repId: 'S0TN00169',
         repName: 'Bill Hagerty',
@@ -290,10 +295,11 @@ export default {
         rating: 'likelyRep',
         
         demId: 'S8MS00287',
-        demName: 'Michael Espy',
+        demName: 'Mike Espy',
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/espy-web-2020',
         
         repId: 'S8MS00261',
         repName: 'Cindy Hyde-Smith',
@@ -311,6 +317,7 @@ export default {
         demImg: 'jaime-harrison.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/ms_harrison_fr_homepage_2019',
         
         repId: 'S0SC00149',
         repName: 'Lindsey Graham',
@@ -324,10 +331,11 @@ export default {
         rating: 'likelyDem',
         
         demId: 'S8OR00207',
-        demName: 'Jeffrey Merkley',
+        demName: 'Jeff Merkley',
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/contribute/page/stand-with-jeff-merkley',
         
         repId: 'S4OR00156',
         repName: 'Jo Rae Perkins',
@@ -345,6 +353,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/brlhomepage',
         
         repId: 'S0NM00124',
         repName: 'Mark Ronchetti',
@@ -362,6 +371,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/tina-smith',
         
         repId: 'S0MN00328',
         repName: 'Jason Lewis',
@@ -379,6 +389,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/donate/mrw-web',
         
         repId: 'S0VA00146',
         repName: 'Daniel Gade',
@@ -396,6 +407,7 @@ export default {
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,
+        demDonate: 'https://secure.actblue.com/contribute/page/chriscoons.com',
         
         repId: 'S0DE00191',
         repName: 'James DeMartino',

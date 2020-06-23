@@ -5,11 +5,11 @@ const compareRating =(a, b) => {
   const ratingOrder = { 
     'tossup': 0,
     'leanDem': 1,
-    'leanRep': 1,
-    'likelyDem': 2,
-    'likelyRep': 2,
-    'solidDem': 3,
-    'solidRep': 3
+    'leanRep': 2,
+    'likelyDem': 3,
+    'likelyRep': 4,
+    'solidDem': 5,
+    'solidRep': 6
   }
   
   let aRating = ratingOrder[a.props['rating']];

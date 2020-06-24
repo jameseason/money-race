@@ -166,6 +166,15 @@ code {
   overflow-x: hidden;
   padding-top: 125px;
   padding-left: 5px;
+  height: 100%;
+}
+
+.dropdown-item.active {
+  background-color: #545B62
+}
+
+.dropdown-item:active {
+  background-color: #545B62
 }
 
 .btn {

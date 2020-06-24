@@ -1,4 +1,8 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 // TODO: Make the controller prettier
 class Controller extends React.Component {
@@ -7,48 +11,42 @@ class Controller extends React.Component {
     
     return(
       <div>
+      
         {/* Cash on hand vs total raised toggle */}
         <div className = "controller-element">
         Value to display: <br />
-          <div className="btn-group btn-group-toggle" data-toggle="buttons" onChange={event => this.props.onHandHandler(event)}>
-            <label className={`btn btn-secondary ${this.props.onHand ? "active" : ""}`}>
-              <input type="radio" value="true" name="onHandButton" id="cashOnHand" autoComplete="off" defaultChecked />
-              Cash on Hand
-            </label>
-            <label className={`btn btn-secondary ${this.props.onHand ? "" : "active"}`}>
-              <input type="radio" value="false" name="onHandButton" id="cashTotal" autoComplete="off" />
-              Total Raised
-            </label>
-          </div>
+          <ButtonGroup aria-label="Number to display">
+            <Button variant="secondary" onClick={event => this.props.onHandHandler(true)} className={`${this.props.onHand ? "active" : ""}`}>Cash on Hand</Button>
+            <Button variant="secondary" onClick={event => this.props.onHandHandler(false)} className={`${this.props.onHand ? "" : "active"}`}>Total Raised</Button>
+          </ButtonGroup>
         </div>
         
         {/* Filter by race rating */}
         <div className = "controller-element">
           Race ratings to include: <br />
-          <button type="button" className={`btn btn-${this.props.includeTossup ? "secondary active" : "outline-secondary"}`} 
-                  onClick={event => this.props.toggleTossup(event)}>Tossup</button>&nbsp;
-          <button type="button" className={`btn btn-${this.props.includeLean ? "secondary active" : "outline-secondary"}`} 
-                  onClick={event => this.props.toggleLean(event)}>Lean</button>&nbsp;
-          <button type="button" className={`btn btn-${this.props.includeLikely ? "secondary active" : "outline-secondary"}`} 
-                  onClick={event => this.props.toggleLikely(event)}>Likely</button>&nbsp;
-          <button type="button" className={`btn btn-${this.props.includeSolid ? "secondary active" : "outline-secondary"}`} 
-                  onClick={event => this.props.toggleSolid(event)}>Solid</button>
+          <Button variant="secondary" onClick={event => this.props.toggleTossup(event)} active={this.props.includeTossup ? true : false}>Tossup</Button>&nbsp;
+          <Button variant="secondary" onClick={event => this.props.toggleLean(event)} active={this.props.includeLean ? true : false}>Lean</Button>&nbsp;
+          <Button variant="secondary" onClick={event => this.props.toggleLikely(event)} active={this.props.includeLikely ? true : false}>Likely</Button>&nbsp;
+          <Button variant="secondary" onClick={event => this.props.toggleSolid(event)} active={this.props.includeSolid ? true : false}>Solid</Button>&nbsp;
         </div>
+        
         
         {/* Sort by */}
         <div className = "controller-element">
-        Sort by: <br />
-          <div className="btn-group btn-group-toggle" data-toggle="buttons" onChange={event => this.props.sortByHandler(event)}>
-            <label className={`btn btn-secondary ${this.props.sortBy === "state" ? "active" : ""}`}>
-              <input type="radio" value="state" name="sortByButton" id="stateNameSort" autoComplete="off" defaultChecked />
-              State name
-            </label>
-            <label className={`btn btn-secondary ${this.props.sortBy === "rating" ? "active" : ""}`}>
-              <input type="radio" value="rating" name="sortByButton" id="raceRatingSort" autoComplete="off" />
-              Race rating
-            </label>
-          </div>
+          <DropdownButton
+            id="sorting-drop-down"
+            drop="down"
+            variant="secondary"
+            title="Sort by"
+            onSelect={event => this.props.sortByHandler(event)}
+          >
+            <Dropdown.Item eventKey="rating" active={this.props.sortBy === "rating" ? true : false}>Race Rating</Dropdown.Item>
+            <Dropdown.Item eventKey="state" active={this.props.sortBy === "state" ? true : false}>State Name</Dropdown.Item>
+            <Dropdown.Item eventKey="total" active={this.props.sortBy === "total" ? true : false}>Money in Race</Dropdown.Item>
+            <Dropdown.Item eventKey="closest" active={this.props.sortBy === "closest" ? true : false}>Closest Race</Dropdown.Item>
+          </DropdownButton>
         </div>
+        
       </div>
     )
   }

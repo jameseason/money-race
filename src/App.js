@@ -11,8 +11,8 @@ class App extends Component {
     includeTossup: true,
     includeLean: true,
     includeLikely: true,
-    includeSolid: false,
-    sortBy: 'state',
+    includeSolid: true,
+    sortBy: 'rating',
     
     races: [],
   };
@@ -29,15 +29,15 @@ class App extends Component {
     this.setRaces = this.setRaces.bind(this);
   }
   
-  setOnHand(event) {
+  setOnHand(onHand) {
     this.setState({
-      onHand: (event.target.value === "true")
+      onHand: onHand
     });
   }
   
-  setSortBy(event) {
+  setSortBy(newSort) {
     this.setState({
-      sortBy: event.target.value
+      sortBy: newSort
     });
   }
 
@@ -124,11 +124,10 @@ class App extends Component {
       </div>
       
       <div className="raceList">
-        <Sort by={this.state.sortBy}>
+        <Sort by={this.state.sortBy} onHand={this.state.onHand}>
         {this.state.races.map(race => (
         
-        
-          <div rating={race.rating} state={race.state} className={`row ${this.isVisible(race.rating) ? "" : "hidden"}`} key={race.stateAbbrev}>
+          <div className={`row ${this.isVisible(race.rating) ? "" : "hidden"}`} key={race.stateAbbrev} race={race} >
           
             <div className={`state ${race.rating}`}>
               <span className={"stateface hover stateface-" + race.stateAbbrev}><span className="hovertext">{this.convertRatingString(race.rating)}</span></span>

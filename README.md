@@ -1,5 +1,5 @@
 # 2020 Senate Money Race
-This project is intended to display financial information for 2020 Senate candidates.
+This project is intended to display financial information for 2020 Senate candidates. Deployed to https://jameseason.github.io/money-race
 
 ## Sources
 * Financial information is pulled from the [FEC API](https://api.open.fec.gov/developers/)

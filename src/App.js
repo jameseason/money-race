@@ -8,10 +8,12 @@ class App extends Component {
   
   state = {
     onHand: true,
-    includeTossup: true,
-    includeLean: true,
-    includeLikely: true,
-    includeSolid: true,
+    includeRating: {
+      tossup: true,
+      lean: true,
+      likely: true,
+      solid: true
+    },
     sortBy: 'rating',
     
     races: [],
@@ -22,72 +24,58 @@ class App extends Component {
 
     this.setOnHand = this.setOnHand.bind(this);
     this.setSortBy = this.setSortBy.bind(this);
-    this.toggleTossup = this.toggleTossup.bind(this);
-    this.toggleLean = this.toggleLean.bind(this);
-    this.toggleLikely = this.toggleLikely.bind(this);
-    this.toggleSolid = this.toggleSolid.bind(this);
+    this.toggleRating = this.toggleRating.bind(this);
     this.setRaces = this.setRaces.bind(this);
   }
   
+  /* Set onHand state property */
   setOnHand(onHand) {
     this.setState({
       onHand: onHand
     });
   }
   
+  /* Set sortBy state property */
   setSortBy(newSort) {
     this.setState({
       sortBy: newSort
     });
   }
-
-  toggleTossup(event) {
-    this.setState({
-      includeTossup: !this.state.includeTossup
-    });
-  }
-  toggleLean(event) {
-    this.setState({
-      includeLean: !this.state.includeLean
-    });
-  }
-  toggleLikely(event) {
-    this.setState({
-      includeLikely: !this.state.includeLikely
-    });
-  }
-  toggleSolid(event) {
-    this.setState({
-      includeSolid: !this.state.includeSolid
-    });
+  
+  /* Toggle whether a rating is included. */
+  toggleRating(ratingToToggle) {
+    this.setState(prevState => ({
+      includeRating: {
+        ...prevState.includeRating,
+        [ratingToToggle]: !prevState.includeRating[ratingToToggle]
+      }
+    }))
   }
   
+  /* Return whether a rating is included */
   isVisible(rating) {
-    if (rating === "tossup") {
-      return this.state.includeTossup;
+    switch(rating) {
+      case "tossup": return this.state.includeRating.tossup;
+      case "leanRep": return this.state.includeRating.lean;
+      case "leanDem": return this.state.includeRating.lean;
+      case "likelyRep": return this.state.includeRating.likely;
+      case "likelyDem": return this.state.includeRating.likely;
+      case "solidRep": return this.state.includeRating.solid;
+      case "solidDem": return this.state.includeRating.solid;
+      default:
+        console.log("invalid rating: " + rating);
+        return "Invalid Rating";
     }
-    if (rating === "leanDem" || rating === "leanRep") {
-      return this.state.includeLean;
-    }
-    if (rating === "likelyDem" || rating === "likelyRep") {
-      return this.state.includeLikely;
-    }
-    if (rating === "solidDem" || rating === "solidRep") {
-      return this.state.includeSolid;
-    }
-    return false;
   }
   
+  /* Set race information */
   setRaces(raceInfo) {
     this.setState({
       races: raceInfo,
     });
   }
-  
-  componentDidMount() {
-    getData(this.setRaces);
-  }
 
+  /* Convert rating to display string */
   convertRatingString(str) {
     switch(str) {
       case "tossup": return "Tossup";
@@ -102,25 +90,25 @@ class App extends Component {
         return "Invalid Rating";
     }
   }
+  
+  componentDidMount() {
+    getData(this.setRaces);
+  }
 
   render() {
+    
     return (
       
       <div>
         <center><h1 className="display-4">2020 Senate Money Race</h1>
         <p>Money raised by each 2020 Senate candidate, rounded to the nearest dollar.
         State silhouettes are colored according to Politico's race predictions.</p></center>
-      
-      
-      
+
       <div className = "sidenav">
         <Controller 
           onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
           sortByHandler = {this.setSortBy} sortBy = {this.state.sortBy}
-          toggleTossup = {this.toggleTossup} includeTossup = {this.state.includeTossup} 
-          toggleLean = {this.toggleLean} includeLean = {this.state.includeLean}
-          toggleLikely = {this.toggleLikely} includeLikely = {this.state.includeLikely}
-          toggleSolid = {this.toggleSolid} includeSolid = {this.state.includeSolid} />
+          toggleRating = {this.toggleRating} includeRating = {this.state.includeRating} />
       </div>
       
       <div className="raceList">

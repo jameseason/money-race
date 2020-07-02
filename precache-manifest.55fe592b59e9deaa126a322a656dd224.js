@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bca57d52110b6e093a32bd032bcf06d9",
+    "revision": "c7e7b8070f4edfd15abfa262a78686cc",
     "url": "/money-race/index.html"
   },
   {
-    "revision": "80f200c9ef484cc67173",
+    "revision": "418b85a82e4cfa44dfe5",
     "url": "/money-race/static/css/main.a2539f99.chunk.css"
   },
   {
-    "revision": "7c104d9b84a202d87982",
-    "url": "/money-race/static/js/2.fec3e361.chunk.js"
+    "revision": "1034cd8ddae3747aa55a",
+    "url": "/money-race/static/js/2.02fd0f52.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/money-race/static/js/2.fec3e361.chunk.js.LICENSE.txt"
+    "url": "/money-race/static/js/2.02fd0f52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80f200c9ef484cc67173",
-    "url": "/money-race/static/js/main.edbde20d.chunk.js"
+    "revision": "418b85a82e4cfa44dfe5",
+    "url": "/money-race/static/js/main.95f15202.chunk.js"
   },
   {
     "revision": "150c06fe47cb26788288",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8d5f142e4d2e59ab3b4940d822709bf0",
     "url": "/money-race/static/media/martha-mcsally.8d5f142e.png"
+  },
+  {
+    "revision": "42e8db7b905f6e0e6f8afec200e8b7ed",
+    "url": "/money-race/static/media/mj-hegar.42e8db7b.png"
   },
   {
     "revision": "67ba915a398d325821eece25894ac65c",

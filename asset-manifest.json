@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/money-race/static/css/main.a2539f99.chunk.css",
-    "main.js": "/money-race/static/js/main.edbde20d.chunk.js",
-    "main.js.map": "/money-race/static/js/main.edbde20d.chunk.js.map",
+    "main.js": "/money-race/static/js/main.95f15202.chunk.js",
+    "main.js.map": "/money-race/static/js/main.95f15202.chunk.js.map",
     "runtime-main.js": "/money-race/static/js/runtime-main.c956a95a.js",
     "runtime-main.js.map": "/money-race/static/js/runtime-main.c956a95a.js.map",
-    "static/js/2.fec3e361.chunk.js": "/money-race/static/js/2.fec3e361.chunk.js",
-    "static/js/2.fec3e361.chunk.js.map": "/money-race/static/js/2.fec3e361.chunk.js.map",
+    "static/js/2.02fd0f52.chunk.js": "/money-race/static/js/2.02fd0f52.chunk.js",
+    "static/js/2.02fd0f52.chunk.js.map": "/money-race/static/js/2.02fd0f52.chunk.js.map",
     "index.html": "/money-race/index.html",
-    "precache-manifest.b0041e94bba2d2a5eaca6b3347841e8a.js": "/money-race/precache-manifest.b0041e94bba2d2a5eaca6b3347841e8a.js",
+    "precache-manifest.55fe592b59e9deaa126a322a656dd224.js": "/money-race/precache-manifest.55fe592b59e9deaa126a322a656dd224.js",
     "service-worker.js": "/money-race/service-worker.js",
     "static/css/main.a2539f99.chunk.css.map": "/money-race/static/css/main.a2539f99.chunk.css.map",
-    "static/js/2.fec3e361.chunk.js.LICENSE.txt": "/money-race/static/js/2.fec3e361.chunk.js.LICENSE.txt",
+    "static/js/2.02fd0f52.chunk.js.LICENSE.txt": "/money-race/static/js/2.02fd0f52.chunk.js.LICENSE.txt",
     "static/media/al-gross.png": "/money-race/static/media/al-gross.a112ee77.png",
     "static/media/cal-cunningham.png": "/money-race/static/media/cal-cunningham.738cd5f5.png",
     "static/media/cory-gardner.png": "/money-race/static/media/cory-gardner.52e0fb97.png",
@@ -30,6 +30,7 @@
     "static/media/lindsey-graham.png": "/money-race/static/media/lindsey-graham.6402d584.png",
     "static/media/mark-kelly.png": "/money-race/static/media/mark-kelly.6d00a600.png",
     "static/media/martha-mcsally.png": "/money-race/static/media/martha-mcsally.8d5f142e.png",
+    "static/media/mj-hegar.png": "/money-race/static/media/mj-hegar.42e8db7b.png",
     "static/media/raphael-warnock.png": "/money-race/static/media/raphael-warnock.67ba915a.png",
     "static/media/republican-solid.png": "/money-race/static/media/republican-solid.69161a7b.png",
     "static/media/sara-gideon.png": "/money-race/static/media/sara-gideon.cf7e602a.png",
@@ -42,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c956a95a.js",
-    "static/js/2.fec3e361.chunk.js",
+    "static/js/2.02fd0f52.chunk.js",
     "static/css/main.a2539f99.chunk.css",
-    "static/js/main.edbde20d.chunk.js"
+    "static/js/main.95f15202.chunk.js"
   ]
 }

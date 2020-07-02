@@ -64,7 +64,7 @@ class App extends Component {
       case "solidDem": return this.state.includeRating.solid;
       default:
         console.log("invalid rating: " + rating);
-        return "Invalid Rating";
+        return false;
     }
   }
   
@@ -130,11 +130,11 @@ class App extends Component {
         ))}
         </Sort>
       </div>
-      
-      
+
+
       <center><p>
         Data is from the most recent FEC filing.
-        In cases where the primary is not decided, the contender with the most cash on hand is used.
+        In cases where the primary is not decided, either the incumbent or the contender with the most cash on hand is used.
       </p></center>
       </div>
     )

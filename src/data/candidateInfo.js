@@ -98,7 +98,7 @@ export default {
         
         demId: 'S0TX00233',
         demName: 'MJ Hegar',
-        demImg: 'democrat-solid.png',
+        demImg: 'mj-hegar.png',
         demOnHand: 0,
         demTotal: 0,
         demDonate: 'https://secure.actblue.com/donate/mjh_website',
@@ -590,8 +590,8 @@ export default {
         stateAbbrev: 'ma',
         rating: 'solidDem',
         
-        demId: 'S0MA00208',
-        demName: 'Joe Kennedy',
+        demId: 'S4MA00028',
+        demName: 'Ed Markey',
         demImg: 'democrat-solid.png',
         demOnHand: 0,
         demTotal: 0,

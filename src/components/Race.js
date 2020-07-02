@@ -17,7 +17,7 @@ class Race extends React.Component {
           <div className='barDem' style={{width: (demValue / (demValue + repValue))*100 + '%'}}> 
           
             <div className='barContents demContents'>
-              <img src={require('../images/' + this.props.race.demImg)} alt={this.props.race.demName} className='portrait' />
+              <img src={require('../images/' + this.props.race.demImg)} alt={this.props.race.demName} className='portrait' draggable="false" />
 
               <span className='hover'>
                 <NumberFormat value={demValue} displayType={'text'} thousandSeparator={true} decimalScale={0} prefix={'$'} />
@@ -35,7 +35,7 @@ class Race extends React.Component {
                 <span className='hovertext coverageEndText'>As of {this.props.race.repCoverageEnd}</span>
               </span>
 
-              <img src={require('../images/' + this.props.race.repImg)} alt={this.props.race.repName} className='portrait' />
+              <img src={require('../images/' + this.props.race.repImg)} alt={this.props.race.repName} className='portrait' draggable="false" />
             </div>
           </div>
         </div>

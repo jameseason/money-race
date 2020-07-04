@@ -2,7 +2,7 @@ import React from 'react';
 
 // Compare by rating
 const compareRating =(a, b) => {
-  const ratingOrder = { 
+  const ratingOrder = {
     'tossup': 0,
     'leanDem': 1,
     'leanRep': 2,

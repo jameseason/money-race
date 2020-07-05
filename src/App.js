@@ -3,22 +3,13 @@ import Race from './components/Race';
 import Controller from './components/Controller';
 import Sort from './components/Sort';
 import {getData} from './getData';
+import * as Constants from './constants';
 
+/** Main application class */
 class App extends Component {
-  
-  state = {
-    onHand: true,
-    includeRating: {
-      tossup: true,
-      lean: true,
-      likely: true,
-      solid: true
-    },
-    sortBy: 'rating',
-    
-    races: [],
-  };
-
+  /**
+   * @param {Object} props - constructor props
+   */
   constructor(props) {
     super(props);
 
@@ -26,118 +17,157 @@ class App extends Component {
     this.setSortBy = this.setSortBy.bind(this);
     this.toggleRating = this.toggleRating.bind(this);
     this.setRaces = this.setRaces.bind(this);
+
+    this.state = {
+      onHand: true,
+      includeRating: {
+        tossup: true,
+        lean: true,
+        likely: true,
+        solid: true,
+      },
+      sortBy: 'rating',
+
+      races: [],
+    };
   }
-  
-  /* Set onHand state property */
+
+  /**
+   * Set whether cash on hand or total raised is displayed.
+   * @param {boolean} onHand - true if cash on hand should be displayed,
+   *  false for total raised.
+   */
   setOnHand(onHand) {
     this.setState({
-      onHand: onHand
+      onHand: onHand,
     });
   }
-  
-  /* Set sortBy state property */
+
+  /**
+   * Set how the list is sorted. See Sort.js for supported values.
+   * @param {string} newSort - What to sort by
+   */
   setSortBy(newSort) {
     this.setState({
-      sortBy: newSort
+      sortBy: newSort,
     });
   }
-  
-  /* Toggle whether a rating is included. */
+
+  /**
+   * Toggle whether a rating is shown.
+   * @param {string} ratingToToggle - What rating to toggle
+   */
   toggleRating(ratingToToggle) {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       includeRating: {
         ...prevState.includeRating,
-        [ratingToToggle]: !prevState.includeRating[ratingToToggle]
-      }
-    }))
+        [ratingToToggle]: !prevState.includeRating[ratingToToggle],
+      },
+    }));
   }
-  
-  /* Return whether a rating is included */
+
+  /**
+   * Determine whether a race rating should be visible.
+   * @param {string} rating - What rating to check
+   * @return {boolean} - Whether the rating should be visible
+   */
   isVisible(rating) {
-    switch(rating) {
-      case "tossup": return this.state.includeRating.tossup;
-      case "leanRep": return this.state.includeRating.lean;
-      case "leanDem": return this.state.includeRating.lean;
-      case "likelyRep": return this.state.includeRating.likely;
-      case "likelyDem": return this.state.includeRating.likely;
-      case "solidRep": return this.state.includeRating.solid;
-      case "solidDem": return this.state.includeRating.solid;
+    switch (rating) {
+      case 'tossup': return this.state.includeRating.tossup;
+      case 'leanRep': return this.state.includeRating.lean;
+      case 'leanDem': return this.state.includeRating.lean;
+      case 'likelyRep': return this.state.includeRating.likely;
+      case 'likelyDem': return this.state.includeRating.likely;
+      case 'solidRep': return this.state.includeRating.solid;
+      case 'solidDem': return this.state.includeRating.solid;
       default:
-        console.log("invalid rating: " + rating);
+        console.log('invalid rating: ' + rating);
         return false;
     }
   }
-  
-  /* Set race information */
+
+  /**
+   * Put the race data into the state.
+   * @param {Object[]} raceInfo - race information for all candidates
+   */
   setRaces(raceInfo) {
     this.setState({
       races: raceInfo,
     });
   }
 
-  /* Convert rating to display string */
+  /**
+   * Convert rating to display string.
+   * @param {string} str - rating string
+   * @return {string} - display string for rating
+   */
   convertRatingString(str) {
-    switch(str) {
-      case "tossup": return "Tossup";
-      case "leanRep": return "Lean R";
-      case "leanDem": return "Lean D";
-      case "likelyRep": return "Likely R";
-      case "likelyDem": return "Likely D";
-      case "solidRep": return "Solid R";
-      case "solidDem": return "Solid D";
+    switch (str) {
+      case 'tossup': return 'Tossup';
+      case 'leanRep': return 'Lean R';
+      case 'leanDem': return 'Lean D';
+      case 'likelyRep': return 'Likely R';
+      case 'likelyDem': return 'Likely D';
+      case 'solidRep': return 'Solid R';
+      case 'solidDem': return 'Solid D';
       default:
-        console.log("invalid rating: " + str);
-        return "Invalid Rating";
+        console.log('invalid rating: ' + str);
+        return 'Invalid Rating';
     }
   }
-  
+
+  /** invoked immediately after the component is mounted */
   componentDidMount() {
     getData(this.setRaces);
   }
 
+  /** @return rendered component */
   render() {
-    
     return (
-      
+
       <div>
-        <center><h1 className="display-4">2020 Senate Money Race</h1>
-        <p>Money raised by each 2020 Senate candidate, rounded to the nearest dollar.
-        State silhouettes are colored according to Politico's race predictions.</p></center>
+        <center>
+          <h1 className="display-4">{Constants.title}</h1>
+          <p>{Constants.topText}</p>
+        </center>
 
-      <div className = "sidenav">
-        <Controller 
-          onHandHandler = {this.setOnHand} onHand = {this.state.onHand} 
-          sortByHandler = {this.setSortBy} sortBy = {this.state.sortBy}
-          toggleRating = {this.toggleRating} includeRating = {this.state.includeRating} />
+        <div className = "sidenav">
+          <Controller
+            onHandHandler = {this.setOnHand} onHand = {this.state.onHand}
+            sortByHandler = {this.setSortBy} sortBy = {this.state.sortBy}
+            toggleRating = {this.toggleRating} includeRating = {this.state.includeRating} />
+        </div>
+
+        <div className="raceList">
+          <Sort by={this.state.sortBy} onHand={this.state.onHand}>
+            {this.state.races.map((race) => (
+
+              <div className={`row ${this.isVisible(race.rating) ? '' : 'hidden'}`}
+                key={race.stateAbbrev} race={race} >
+
+                <div className={`state ${race.rating}`}>
+                  <span className={'stateface hover stateface-' + race.stateAbbrev}>
+                    <span className="hovertext">
+                      {this.convertRatingString(race.rating)}
+                    </span>
+                  </span>
+                </div>
+
+                <div className="raceInfo">
+                  <Race key={race.demId} race={race} onHand={this.state.onHand} />
+                </div>
+
+              </div>
+
+            ))}
+          </Sort>
+        </div>
+
+        <center>
+          <p>{Constants.bottomText}</p>
+        </center>
       </div>
-      
-      <div className="raceList">
-        <Sort by={this.state.sortBy} onHand={this.state.onHand}>
-        {this.state.races.map(race => (
-        
-          <div className={`row ${this.isVisible(race.rating) ? "" : "hidden"}`} key={race.stateAbbrev} race={race} >
-          
-            <div className={`state ${race.rating}`}>
-              <span className={"stateface hover stateface-" + race.stateAbbrev}><span className="hovertext">{this.convertRatingString(race.rating)}</span></span>
-            </div>
-
-            <div className="raceInfo">
-              <Race key={race.demId} race={race} onHand={this.state.onHand} />
-            </div>
-          
-          </div>
-          
-        ))}
-        </Sort>
-      </div>
-
-
-      <center><p>
-        Data is from the most recent FEC filing.
-        In cases where the primary is not decided, either the incumbent or the contender with the most cash on hand is used.
-      </p></center>
-      </div>
-    )
+    );
   }
 }
 

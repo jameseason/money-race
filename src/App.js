@@ -171,6 +171,12 @@ class App extends Component {
 
         <center>
           <p>{Constants.bottomText}</p>
+          <p>
+            <a href={Constants.githubLink} target="_blank"
+              rel="noopener noreferrer">
+              <img src={require('./images/github.svg')} width="30px" draggable="false" alt="GitHub logo"/>
+            </a>
+          </p>
         </center>
       </div>
     );

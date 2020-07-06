@@ -6,6 +6,7 @@ race predictions.`;
 export const bottomText = `Data is from the most recent FEC filing. In cases 
 where the primary is not decided, either the incumbent or the contender with 
 the most cash on hand is used.`;
+export const githubLink = 'https://github.com/jameseason/money-race';
 
 // getData.js
 export const latestBackupFile = 'response_0704.json';

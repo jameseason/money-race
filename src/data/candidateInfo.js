@@ -331,6 +331,7 @@ export default {
         demId: 'S0ID00180',
         demName: 'Paulette Jordan',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/pauletteforsenate2020',
         
         repId: 'S8ID00092',
         repName: 'James Risch',
@@ -344,6 +345,7 @@ export default {
         demId: 'S0WY00129',
         demName: 'Yana Ludwig',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/yana-for-wyo-1',
         
         repId: 'S0WY00137',
         repName: 'Cynthia Lummis',
@@ -357,6 +359,7 @@ export default {
         demId: 'S0SD00070',
         demName: 'Dan Ahlers',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/4progress',
         
         repId: 'S4SD00049',
         repName: 'Mike Rounds',
@@ -383,6 +386,7 @@ export default {
         demId: 'S0OK00370',
         demName: 'Abby Broyles',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/ab-website',
         
         repId: 'S4OK00083',
         repName: 'Jim Inhofe',
@@ -396,6 +400,7 @@ export default {
         demId: 'S0AR00218',
         demName: 'Dan Whitfield',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://danwhitcongress.us/donate',
         
         repId: 'S4AR00103',
         repName: 'Tom Cotton',
@@ -409,6 +414,7 @@ export default {
         demId: 'S0LA00311',
         demName: 'Antoine Pierce',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/antoine-pierce-1',
         
         repId: 'S4LA00107',
         repName: 'Bill Cassidy',
@@ -422,6 +428,7 @@ export default {
         demId: 'S6IL00151',
         demName: 'Dick Durban',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/contribute/page/dick-durbin',
         
         repId: 'S0IL00543',
         repName: 'Mark Curran',
@@ -435,6 +442,7 @@ export default {
         demId: 'S0WV00215',
         demName: 'Paula Jean Swearengin',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/paula-jean-actblue',
         
         repId: 'S4WV00159',
         repName: 'Shelley Moore Capito',
@@ -448,6 +456,7 @@ export default {
         demId: 'S4NJ00185',
         demName: 'Cory Booker',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/corybooker-2020-website',
         
         repId: 'S0NJ00217',
         repName: 'Rikin Mehta',
@@ -461,6 +470,7 @@ export default {
         demId: 'S4MA00028',
         demName: 'Ed Markey',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/donate/ejm2020',
         
         repId: 'S0MA00232',
         repName: 'Kevin O\'Connor',
@@ -472,8 +482,9 @@ export default {
         rating: 'solidDem',
         
         demId: 'S6RI00163',
-        demName: 'John Reed',
+        demName: 'Jack Reed',
         demImg: 'democrat-solid.png',
+        demDonate: 'https://secure.actblue.com/contribute/page/jackreed',
         
         repId: 'S0RI00067',
         repName: 'Allen Waters',

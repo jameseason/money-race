@@ -153,7 +153,7 @@ export default {
         
         repId: 'S6AL00195',
         repName: 'Jeff Sessions',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Kentucky',
@@ -162,12 +162,12 @@ export default {
         
         demId: 'S0KY00339',
         demName: 'Amy McGrath',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/am-website',
         
         repId: 'S2KY00012',
         repName: 'Mitch McConnell',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'New Hampshire',
@@ -176,12 +176,12 @@ export default {
         
         demId: 'S0NH00219',
         demName: 'Jeanne Shaheen',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/shaheen-website/',
         
         repId: 'S0NH00334',
         repName: 'Corky Messner',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Alaska',
@@ -204,12 +204,12 @@ export default {
         
         demId: 'S0KS00323',
         demName: 'Barbara Bollier',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/bb4ks-web',
         
         repId: 'S0KS00349',
         repName: 'Bob Hamilton',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Tennessee',
@@ -218,12 +218,12 @@ export default {
         
         demId: 'S8TN00311',
         demName: 'James Mackler',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/mackler2020',
         
         repId: 'S0TN00169',
         repName: 'Bill Hagerty',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Mississippi',
@@ -232,12 +232,12 @@ export default {
         
         demId: 'S8MS00287',
         demName: 'Mike Espy',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/espy-web-2020',
         
         repId: 'S8MS00261',
         repName: 'Cindy Hyde-Smith',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'South Carolina',
@@ -260,12 +260,12 @@ export default {
         
         demId: 'S8OR00207',
         demName: 'Jeff Merkley',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/contribute/page/stand-with-jeff-merkley',
         
         repId: 'S4OR00156',
         repName: 'Jo Rae Perkins',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'New Mexico',
@@ -274,12 +274,12 @@ export default {
         
         demId: 'S0NM00058',
         demName: 'Ben Ray Lujan',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/brlhomepage',
         
         repId: 'S0NM00124',
         repName: 'Mark Ronchetti',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Minnesota',
@@ -288,12 +288,12 @@ export default {
         
         demId: 'S8MN00578',
         demName: 'Tina Smith',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/tina-smith',
         
         repId: 'S0MN00328',
         repName: 'Jason Lewis',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Virginia',
@@ -302,12 +302,12 @@ export default {
         
         demId: 'S6VA00093',
         demName: 'Mark Warner',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/mrw-web',
         
         repId: 'S0VA00146',
         repName: 'Daniel Gade',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Delaware',
@@ -316,12 +316,12 @@ export default {
         
         demId: 'S0DE00092',
         demName: 'Chris Coons',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/contribute/page/chriscoons.com',
         
         repId: 'S0DE00191',
         repName: 'James DeMartino',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Idaho',
@@ -330,12 +330,12 @@ export default {
         
         demId: 'S0ID00180',
         demName: 'Paulette Jordan',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/pauletteforsenate2020',
         
         repId: 'S8ID00092',
         repName: 'James Risch',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Wyoming',
@@ -344,12 +344,12 @@ export default {
         
         demId: 'S0WY00129',
         demName: 'Yana Ludwig',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/yana-for-wyo-1',
         
         repId: 'S0WY00137',
         repName: 'Cynthia Lummis',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'South Dakota',
@@ -358,12 +358,12 @@ export default {
         
         demId: 'S0SD00070',
         demName: 'Dan Ahlers',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/4progress',
         
         repId: 'S4SD00049',
         repName: 'Mike Rounds',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Nebraska',
@@ -372,11 +372,11 @@ export default {
         
         demId: 'S8NE00216',
         demName: 'Chris Janicek',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         
         repId: 'S4NE00090',
         repName: 'Ben Sasse',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Oklahoma',
@@ -385,12 +385,12 @@ export default {
         
         demId: 'S0OK00370',
         demName: 'Abby Broyles',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/ab-website',
         
         repId: 'S4OK00083',
         repName: 'Jim Inhofe',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Arkansas',
@@ -399,12 +399,12 @@ export default {
         
         demId: 'S0AR00218',
         demName: 'Dan Whitfield',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://danwhitcongress.us/donate',
         
         repId: 'S4AR00103',
         repName: 'Tom Cotton',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Louisiana',
@@ -413,12 +413,12 @@ export default {
         
         demId: 'S0LA00311',
         demName: 'Antoine Pierce',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/antoine-pierce-1',
         
         repId: 'S4LA00107',
         repName: 'Bill Cassidy',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Illinois',
@@ -427,12 +427,12 @@ export default {
         
         demId: 'S6IL00151',
         demName: 'Dick Durban',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/contribute/page/dick-durbin',
         
         repId: 'S0IL00543',
         repName: 'Mark Curran',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'West Virginia',
@@ -441,12 +441,12 @@ export default {
         
         demId: 'S0WV00215',
         demName: 'Paula Jean Swearengin',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/paula-jean-actblue',
         
         repId: 'S4WV00159',
         repName: 'Shelley Moore Capito',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'New Jersey',
@@ -455,12 +455,12 @@ export default {
         
         demId: 'S4NJ00185',
         demName: 'Cory Booker',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/corybooker-2020-website',
         
         repId: 'S0NJ00217',
         repName: 'Rikin Mehta',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Massachusetts',
@@ -469,12 +469,12 @@ export default {
         
         demId: 'S4MA00028',
         demName: 'Ed Markey',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/donate/ejm2020',
         
         repId: 'S0MA00232',
         repName: 'Kevin O\'Connor',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
       {
         state: 'Rhode Island',
@@ -483,12 +483,12 @@ export default {
         
         demId: 'S6RI00163',
         demName: 'Jack Reed',
-        demImg: 'democrat-solid.png',
+        demImg: 'democrat-solid.svg',
         demDonate: 'https://secure.actblue.com/contribute/page/jackreed',
         
         repId: 'S0RI00067',
         repName: 'Allen Waters',
-        repImg: 'republican-solid.png',
+        repImg: 'republican-solid.svg',
       },
     ]
 };

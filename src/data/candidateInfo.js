@@ -33,7 +33,7 @@ export default {
         state: 'Arizona',
         stateAbbrev: 'az',
         demId: 'S0AZ00350',
-        rating: 'tossup',
+        rating: 'leanDem',
 
         demName: 'Mark Kelly',
         demImg: 'mark-kelly.png',
@@ -60,7 +60,7 @@ export default {
       {
         state: 'Montana',
         stateAbbrev: 'mt',
-        rating: 'leanRep',
+        rating: 'tossup',
         
         demId: 'S0MT00173',
         demName: 'Steve Bullock',
@@ -130,7 +130,7 @@ export default {
       {
         state: 'Iowa',
         stateAbbrev: 'ia',
-        rating: 'leanRep',
+        rating: 'tossup',
         
         demId: 'S0IA00176',
         demName: 'Theresa Greenfield',
@@ -256,7 +256,7 @@ export default {
       {
         state: 'Oregon',
         stateAbbrev: 'or',
-        rating: 'likelyDem',
+        rating: 'solidDem',
         
         demId: 'S8OR00207',
         demName: 'Jeff Merkley',

@@ -121,7 +121,7 @@ class App extends Component {
     getData(this.setRaces);
   }
 
-  /** @return rendered component */
+  /** @return {ReactComponent} - rendered component */
   render() {
     return (
 
@@ -133,9 +133,12 @@ class App extends Component {
 
         <div className = "sidenav">
           <Controller
-            onHandHandler = {this.setOnHand} onHand = {this.state.onHand}
-            sortByHandler = {this.setSortBy} sortBy = {this.state.sortBy}
-            toggleRating = {this.toggleRating} includeRating = {this.state.includeRating} />
+            onHandHandler = {this.setOnHand}
+            onHand = {this.state.onHand}
+            sortByHandler = {this.setSortBy}
+            sortBy = {this.state.sortBy}
+            toggleRating = {this.toggleRating}
+            includeRating = {this.state.includeRating} />
         </div>
 
         <div className="raceList">
@@ -154,7 +157,10 @@ class App extends Component {
                 </div>
 
                 <div className="raceInfo">
-                  <Race key={race.demId} race={race} onHand={this.state.onHand} />
+                  <Race
+                    key={race.demId}
+                    race={race}
+                    onHand={this.state.onHand} />
                 </div>
 
               </div>

@@ -4,7 +4,6 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-// TODO: Make the controller prettier
 class Controller extends React.Component {
   
   render() {

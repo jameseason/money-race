@@ -29,8 +29,8 @@ class Controller extends React.Component {
         <div className = "controller-element">
         Value to display: <br />
           <ButtonGroup aria-label="Number to display">
-            <Button variant="secondary" onClick={event => this.props.onHandHandler(true)} className={`${this.props.onHand ? "active" : ""}`}>Cash on Hand</Button>
-            <Button variant="secondary" onClick={event => this.props.onHandHandler(false)} className={`${this.props.onHand ? "" : "active"}`}>Total Raised</Button>
+            <Button variant="outline-secondary" onClick={event => this.props.onHandHandler(true)} className={`${this.props.onHand ? "active" : ""}`}>Cash on Hand</Button>
+            <Button variant="outline-secondary" onClick={event => this.props.onHandHandler(false)} className={`${this.props.onHand ? "" : "active"}`}>Total Raised</Button>
           </ButtonGroup>
         </div>
 
@@ -40,7 +40,7 @@ class Controller extends React.Component {
           
           {Object.keys(ratingOptions).map(key =>
             <React.Fragment key={key}>
-              <Button variant="secondary" onClick={event => this.props.toggleRating(key)} active={this.props.includeRating[key]}>{ratingOptions[key]}</Button>
+              <Button variant="outline-secondary" onClick={event => this.props.toggleRating(key)} active={this.props.includeRating[key]}>{ratingOptions[key]}</Button>
               &nbsp;
             </React.Fragment>
           )}

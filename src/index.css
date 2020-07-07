@@ -170,11 +170,11 @@ code {
 }
 
 .dropdown-item.active {
-  background-color: #545B62
+  background-color: #6C757D
 }
 
 .dropdown-item:active {
-  background-color: #545B62
+  background-color: #6C757D
 }
 
 .btn {

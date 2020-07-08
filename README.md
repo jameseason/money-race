@@ -1,5 +1,5 @@
 # 2020 Senate Money Race
-This project is intended to display financial information for 2020 Senate candidates. Deployed to https://jameseason.github.io/money-race
+This project is intended to display financial information for 2020 Senate candidates. Deployed to https://senatemoneyrace.org
 
 ## Controller Options
 On the left of the page, there are several options to change what is displayed.

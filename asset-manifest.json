@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0dd91c03.chunk.css",
-    "main.js": "/static/js/main.dab1ada7.chunk.js",
-    "main.js.map": "/static/js/main.dab1ada7.chunk.js.map",
+    "main.css": "/static/css/main.847f5c1e.chunk.css",
+    "main.js": "/static/js/main.55ec9308.chunk.js",
+    "main.js.map": "/static/js/main.55ec9308.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6fbda791.js",
     "runtime-main.js.map": "/static/js/runtime-main.6fbda791.js.map",
     "static/js/2.213ad671.chunk.js": "/static/js/2.213ad671.chunk.js",
     "static/js/2.213ad671.chunk.js.map": "/static/js/2.213ad671.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2fcc0619a211c5ec72958fdbb670ba58.js": "/precache-manifest.2fcc0619a211c5ec72958fdbb670ba58.js",
+    "precache-manifest.8ff607e51afcc6e829cfc81564a760da.js": "/precache-manifest.8ff607e51afcc6e829cfc81564a760da.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0dd91c03.chunk.css.map": "/static/css/main.0dd91c03.chunk.css.map",
+    "static/css/main.847f5c1e.chunk.css.map": "/static/css/main.847f5c1e.chunk.css.map",
     "static/js/2.213ad671.chunk.js.LICENSE.txt": "/static/js/2.213ad671.chunk.js.LICENSE.txt",
     "static/media/al-gross.png": "/static/media/al-gross.a112ee77.png",
     "static/media/amy-mcgrath.png": "/static/media/amy-mcgrath.bd830bf1.png",
@@ -19,7 +19,7 @@
     "static/media/cory-gardner.png": "/static/media/cory-gardner.52e0fb97.png",
     "static/media/dan-sullivan.png": "/static/media/dan-sullivan.1a18b858.png",
     "static/media/david-perdue.png": "/static/media/david-perdue.3da4a031.png",
-    "static/media/democrat-solid.svg": "/static/media/democrat-solid.bed5568f.svg",
+    "static/media/democrat-solid.svg": "/static/media/democrat-solid.5af26469.svg",
     "static/media/doug-jones.png": "/static/media/doug-jones.20701bae.png",
     "static/media/gary-peters.png": "/static/media/gary-peters.31a23a53.png",
     "static/media/github.svg": "/static/media/github.ec5bc1b3.svg",
@@ -37,7 +37,7 @@
     "static/media/mitch-mcconnell.png": "/static/media/mitch-mcconnell.59a832b6.png",
     "static/media/mj-hegar.png": "/static/media/mj-hegar.42e8db7b.png",
     "static/media/raphael-warnock.png": "/static/media/raphael-warnock.67ba915a.png",
-    "static/media/republican-solid.svg": "/static/media/republican-solid.5230c193.svg",
+    "static/media/republican-solid.svg": "/static/media/republican-solid.da890b78.svg",
     "static/media/sara-gideon.png": "/static/media/sara-gideon.cf7e602a.png",
     "static/media/index.css": "/static/media/stateface-regular-webfont.a30251b9.ttf",
     "static/media/steve-bullock.png": "/static/media/steve-bullock.ce837925.png",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.6fbda791.js",
     "static/js/2.213ad671.chunk.js",
-    "static/css/main.0dd91c03.chunk.css",
-    "static/js/main.dab1ada7.chunk.js"
+    "static/css/main.847f5c1e.chunk.css",
+    "static/js/main.55ec9308.chunk.js"
   ]
 }

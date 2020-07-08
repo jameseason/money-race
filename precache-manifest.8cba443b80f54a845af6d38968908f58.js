@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3331febe6d281c54587bdc099c5dad7e",
+    "revision": "2b9c744198c16bea9d5005c4e986a32d",
     "url": "/money-race/index.html"
   },
   {
-    "revision": "7d529ff63da6bbaa6c26",
-    "url": "/money-race/static/css/main.1c579459.chunk.css"
+    "revision": "1ce27a26d1cdf04c2891",
+    "url": "/money-race/static/css/main.53080c43.chunk.css"
   },
   {
     "revision": "5ee8cf7a67411be4bd3f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-race/static/js/2.718b95a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d529ff63da6bbaa6c26",
-    "url": "/money-race/static/js/main.98a5e9dc.chunk.js"
+    "revision": "1ce27a26d1cdf04c2891",
+    "url": "/money-race/static/js/main.26c0249c.chunk.js"
   },
   {
     "revision": "150c06fe47cb26788288",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-race/static/media/david-perdue.b7470003.png"
   },
   {
-    "revision": "bcb18f5fd6460bd5d83a8c6c33ff36fb",
-    "url": "/money-race/static/media/democrat-solid.bcb18f5f.png"
+    "revision": "bed5568f5139ce8018a1fabc1a8988ff",
+    "url": "/money-race/static/media/democrat-solid.bed5568f.svg"
   },
   {
     "revision": "20701baea56e030efbd2e31c55c92add",
@@ -108,8 +108,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-race/static/media/raphael-warnock.67ba915a.png"
   },
   {
-    "revision": "69161a7ba0264ceabfb10f489d92e8b3",
-    "url": "/money-race/static/media/republican-solid.69161a7b.png"
+    "revision": "5230c193590af12cacbb53f23504a05e",
+    "url": "/money-race/static/media/republican-solid.5230c193.svg"
   },
   {
     "revision": "cf7e602adc7b229b91106e94d1bd7280",

@@ -27,7 +27,7 @@ export const getData = (setRaces) => {
     }
 
     // store the api call for about a day
-    ls.set('raceInfo', JSON.stringify(raceInfo), Constants.localStorageTime);
+    ls.set(Constants.localStorageName, JSON.stringify(raceInfo), Constants.localStorageTime);
 
     // setRaces will set the state in App.js
     setRaces(raceInfo);
@@ -57,7 +57,7 @@ export const getData = (setRaces) => {
 
   // check local storage first
   const ls = require('localstorage-ttl');
-  const storageResults = ls.get('raceInfo');
+  const storageResults = ls.get(Constants.localStorageName);
   if (storageResults != null) {
     setRaces(JSON.parse(storageResults));
     return;

@@ -13,3 +13,4 @@ export const latestBackupFile = 'response_0704.json';
 export const fecBaseUrl = 'https://api.open.fec.gov/v1/candidates/totals/';
 export const apiKey = '01S7pQx8JQPyWhG5lXIcG6QTgVh1ZQ87ITVH2gdH';
 export const localStorageTime = 80000000;
+export const localStorageName = 'raceInfo';

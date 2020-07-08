@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c9b87c5fd89406f4b92e22946fcf4d2",
+    "revision": "a970a6f0b805be30ca1931bc782837ff",
     "url": "/index.html"
   },
   {
-    "revision": "06e28474e7b470b9a6e6",
-    "url": "/static/css/main.0dd91c03.chunk.css"
+    "revision": "41efbc81644134b4bb5e",
+    "url": "/static/css/main.847f5c1e.chunk.css"
   },
   {
     "revision": "7e3a38cc0335eca987ad",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.213ad671.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06e28474e7b470b9a6e6",
-    "url": "/static/js/main.dab1ada7.chunk.js"
+    "revision": "41efbc81644134b4bb5e",
+    "url": "/static/js/main.55ec9308.chunk.js"
   },
   {
     "revision": "4180683ef2ac4a0f4709",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/david-perdue.3da4a031.png"
   },
   {
-    "revision": "bed5568f5139ce8018a1fabc1a8988ff",
-    "url": "/static/media/democrat-solid.bed5568f.svg"
+    "revision": "5af2646943d10d75aa1f84203059c405",
+    "url": "/static/media/democrat-solid.5af26469.svg"
   },
   {
     "revision": "20701baea56e030efbd2e31c55c92add",
@@ -124,20 +124,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/raphael-warnock.67ba915a.png"
   },
   {
-    "revision": "5230c193590af12cacbb53f23504a05e",
-    "url": "/static/media/republican-solid.5230c193.svg"
+    "revision": "da890b7884bad5833cad972344b0a45a",
+    "url": "/static/media/republican-solid.da890b78.svg"
   },
   {
     "revision": "cf7e602adc7b229b91106e94d1bd7280",
     "url": "/static/media/sara-gideon.cf7e602a.png"
   },
   {
-    "revision": "02be97c31e1cebcb2b8d8104877316a6",
-    "url": "/static/media/stateface-regular-webfont.02be97c3.svg"
-  },
-  {
     "revision": "1ac73a56a3b5639a35160aff689eef40",
     "url": "/static/media/stateface-regular-webfont.1ac73a56.eot"
+  },
+  {
+    "revision": "3154e879999e26a0afc3b203a3dcaa65",
+    "url": "/static/media/stateface-regular-webfont.3154e879.svg"
   },
   {
     "revision": "801aaed6daf5f19a0bedc40b1f546674",

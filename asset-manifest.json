@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/money-race/static/css/main.53080c43.chunk.css",
-    "main.js": "/money-race/static/js/main.d17ab856.chunk.js",
-    "main.js.map": "/money-race/static/js/main.d17ab856.chunk.js.map",
+    "main.js": "/money-race/static/js/main.189c5665.chunk.js",
+    "main.js.map": "/money-race/static/js/main.189c5665.chunk.js.map",
     "runtime-main.js": "/money-race/static/js/runtime-main.c956a95a.js",
     "runtime-main.js.map": "/money-race/static/js/runtime-main.c956a95a.js.map",
     "static/js/2.213ad671.chunk.js": "/money-race/static/js/2.213ad671.chunk.js",
     "static/js/2.213ad671.chunk.js.map": "/money-race/static/js/2.213ad671.chunk.js.map",
     "index.html": "/money-race/index.html",
-    "precache-manifest.34365a9d2be9dc1e41396daf315c800b.js": "/money-race/precache-manifest.34365a9d2be9dc1e41396daf315c800b.js",
+    "precache-manifest.b23a6cf529e741d4b42580cc3d236e69.js": "/money-race/precache-manifest.b23a6cf529e741d4b42580cc3d236e69.js",
     "service-worker.js": "/money-race/service-worker.js",
     "static/css/main.53080c43.chunk.css.map": "/money-race/static/css/main.53080c43.chunk.css.map",
     "static/js/2.213ad671.chunk.js.LICENSE.txt": "/money-race/static/js/2.213ad671.chunk.js.LICENSE.txt",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.c956a95a.js",
     "static/js/2.213ad671.chunk.js",
     "static/css/main.53080c43.chunk.css",
-    "static/js/main.d17ab856.chunk.js"
+    "static/js/main.189c5665.chunk.js"
   ]
 }

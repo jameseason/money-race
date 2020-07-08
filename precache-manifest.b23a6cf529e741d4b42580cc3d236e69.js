@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbfaeb030c896f517cb0a1d8f5a149ce",
+    "revision": "8d679907562e160261969747dd6e6c71",
     "url": "/money-race/index.html"
   },
   {
-    "revision": "f11adc4158bf6fde907b",
+    "revision": "1c9d46be7a5282544f4a",
     "url": "/money-race/static/css/main.53080c43.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money-race/static/js/2.213ad671.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f11adc4158bf6fde907b",
-    "url": "/money-race/static/js/main.d17ab856.chunk.js"
+    "revision": "1c9d46be7a5282544f4a",
+    "url": "/money-race/static/js/main.189c5665.chunk.js"
   },
   {
     "revision": "150c06fe47cb26788288",

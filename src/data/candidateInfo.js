@@ -153,7 +153,7 @@ export default {
         
         repId: 'S6AL00195',
         repName: 'Jeff Sessions',
-        repImg: 'republican-solid.svg',
+        repImg: 'jeff-sessions.png',
       },
       {
         state: 'Kentucky',
@@ -162,12 +162,12 @@ export default {
         
         demId: 'S0KY00339',
         demName: 'Amy McGrath',
-        demImg: 'democrat-solid.svg',
+        demImg: 'amy-mcgrath.png',
         demDonate: 'https://secure.actblue.com/donate/am-website',
         
         repId: 'S2KY00012',
         repName: 'Mitch McConnell',
-        repImg: 'republican-solid.svg',
+        repImg: 'mitch-mcconnell.png',
       },
       {
         state: 'New Hampshire',
@@ -204,7 +204,7 @@ export default {
         
         demId: 'S0KS00323',
         demName: 'Barbara Bollier',
-        demImg: 'democrat-solid.svg',
+        demImg: 'barbara-bollier.png',
         demDonate: 'https://secure.actblue.com/donate/bb4ks-web',
         
         repId: 'S0KS00349',

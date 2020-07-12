@@ -1,6 +1,15 @@
-.stateface:before {
-    font-family:  StateFaceRegular;
-    font-size: 700%;
+@media (max-width: 800px) {
+  .stateface:before {
+      font-family:  StateFaceRegular;
+      font-size: 300%;
+  }
+}
+
+@media (min-width: 801px) {
+  .stateface:before {
+      font-family:  StateFaceRegular;
+      font-size: 700%;
+  }
 }
 
 .stateface-replace {

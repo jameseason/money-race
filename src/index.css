@@ -22,17 +22,139 @@ code {
     monospace;
 }
 
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  
+.portrait {
+  height: 80px;
+}
+
+.topText {
+  font-size: 1.75rem;
+  font-size: 5vw;
+}
+
+.bottomText {
+  font-size: 1.75rem;
+  font-size: 5vw;
+}
+
+.display-4 {
+  font-size: 5rem;
+  font-size: 15vw;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.btn-outline-secondary:hover {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: #6c757d;
+}
+  
+.sidenav {
+  width: 100%;
+  margin: auto;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-menu {
+  font-size: 100%;
+  transform: translate(0px, 25%) !important;
+}
+
+.btn {
+  font-size: inherit;
+}
+
+.hideOnMobile {
+  display: none !important;
+}
+
+.controller-element {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+  font-size: 1.75rem;
+  font-size: 5vw;
+  margin: auto;
+}
+
 .raceList {
-  /*margin: auto;
-  width: 60%;
-  padding: 10px;*/
-  margin-left: 250px;
   display: table;
   height: 100%;
-  width: 70%;
-  
+  width: 100%;
+  font-size: 1.75rem;
+  font-size: 5vw;
   table-layout: fixed;
+  margin-top: 10px;
 }
+
+.barBackground {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  vertical-align: middle;
+  height: 80px;
+}
+  
+}
+
+@media (min-width: 801px) {
+  
+  .onlyShowOnMobile {
+    display: none;
+    clear: both;
+    visibility: hidden;
+  }
+  
+  .sidenav {
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 140px;
+    padding-left: 5px;
+    height: 100%;
+  }
+
+
+  .portrait {
+    height: 65px;
+  }
+
+
+  .raceList {
+    margin-left: 250px;
+    display: table;
+    height: 100%;
+    width: 70%;
+    
+    table-layout: fixed;
+  }
+
+
+  .barBackground {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    vertical-align: middle;
+    height: 65px;
+  }
+  
+}
+
 
 .row {
   display: table-row;
@@ -43,7 +165,6 @@ code {
   margin: auto;
   display: table-cell;
   vertical-align: middle;
-  width: 25%
 }
 
 .raceInfo {
@@ -53,15 +174,6 @@ code {
   width: 75%
 }
 
-.barBackground {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  width: 100%;
-  padding: 0px;
-  vertical-align: middle;
-  height: 65px;
-}
 
 /* dotted line */
 .barBackground:after{
@@ -107,9 +219,6 @@ code {
   left: 0;
 }
 
-.portrait {
-  height: 65px;
-}
 
 .repContents {
   right: 2px; /* 2px to offset middle line */
@@ -155,18 +264,6 @@ code {
 
 .solidDem {
   color: #3571C0;
-}
-
-.sidenav {
-  width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 140px;
-  padding-left: 5px;
-  height: 100%;
 }
 
 .dropdown-item.active {
@@ -230,10 +327,6 @@ code {
   margin-left: -30px; /* Use half of the width to center the tooltip */
 }
 
-.hover .coverageEndText {
-  width: 110px;
-  margin-left: -55px;
-}
 
 .hover:hover .hovertext {
   visibility: visible;
@@ -250,6 +343,19 @@ code {
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent #555 transparent;
+}
+
+.topText {
+  white-space: normal;
+}
+
+.bottomText {
+  white-space: normal;
+}
+  
+.hover .coverageEndText {
+  margin-left: -55px;
+  display: table;
 }
 
 @font-face {

@@ -128,8 +128,10 @@ class App extends Component {
       <div>
         <center>
           <h1 className="display-4">{Constants.title}</h1>
-          <p>{Constants.topText}</p>
+          <p className="topText">{Constants.topText}</p>
         </center>
+
+        <hr className="onlyShowOnMobile" />
 
         <div className = "sidenav">
           <Controller
@@ -140,6 +142,8 @@ class App extends Component {
             toggleRating = {this.toggleRating}
             includeRating = {this.state.includeRating} />
         </div>
+
+        <hr className="onlyShowOnMobile" />
 
         <div className="raceList">
           <Sort by={this.state.sortBy} onHand={this.state.onHand}>
@@ -170,7 +174,7 @@ class App extends Component {
         </div>
 
         <center>
-          <p>{Constants.bottomText}</p>
+          <p className="bottomText">{Constants.bottomText}</p>
           <p>
             <a href={Constants.githubLink} target="_blank"
               rel="noopener noreferrer">

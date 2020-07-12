@@ -109,8 +109,7 @@ img {
   .display-4 {
     font-size: 5rem;
     font-size: 15vw;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: auto;
   }
   .topText {
     font-size: 1.75rem;

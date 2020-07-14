@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5d866e4.chunk.css",
-    "main.js": "/static/js/main.5c651f5b.chunk.js",
-    "main.js.map": "/static/js/main.5c651f5b.chunk.js.map",
+    "main.css": "/static/css/main.0a6ca615.chunk.css",
+    "main.js": "/static/js/main.ac8fef0e.chunk.js",
+    "main.js.map": "/static/js/main.ac8fef0e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6fbda791.js",
     "runtime-main.js.map": "/static/js/runtime-main.6fbda791.js.map",
-    "static/js/2.213ad671.chunk.js": "/static/js/2.213ad671.chunk.js",
-    "static/js/2.213ad671.chunk.js.map": "/static/js/2.213ad671.chunk.js.map",
+    "static/js/2.b4731604.chunk.js": "/static/js/2.b4731604.chunk.js",
+    "static/js/2.b4731604.chunk.js.map": "/static/js/2.b4731604.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dc3d3b69fd74db4bf505e4b16199214e.js": "/precache-manifest.dc3d3b69fd74db4bf505e4b16199214e.js",
+    "precache-manifest.99b89d4bba1b4abc07bb75ed914284cb.js": "/precache-manifest.99b89d4bba1b4abc07bb75ed914284cb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d5d866e4.chunk.css.map": "/static/css/main.d5d866e4.chunk.css.map",
-    "static/js/2.213ad671.chunk.js.LICENSE.txt": "/static/js/2.213ad671.chunk.js.LICENSE.txt",
+    "static/css/main.0a6ca615.chunk.css.map": "/static/css/main.0a6ca615.chunk.css.map",
+    "static/js/2.b4731604.chunk.js.LICENSE.txt": "/static/js/2.b4731604.chunk.js.LICENSE.txt",
     "static/media/al-gross.png": "/static/media/al-gross.a112ee77.png",
     "static/media/amy-mcgrath.png": "/static/media/amy-mcgrath.bd830bf1.png",
     "static/media/barbara-bollier.png": "/static/media/barbara-bollier.2d388cef.png",
@@ -22,7 +22,6 @@
     "static/media/democrat-solid.svg": "/static/media/democrat-solid.5af26469.svg",
     "static/media/doug-jones.png": "/static/media/doug-jones.20701bae.png",
     "static/media/gary-peters.png": "/static/media/gary-peters.31a23a53.png",
-    "static/media/github.svg": "/static/media/github.ec5bc1b3.svg",
     "static/media/jaime-harrison.png": "/static/media/jaime-harrison.08acfbff.png",
     "static/media/jeff-sessions.png": "/static/media/jeff-sessions.848ba18d.png",
     "static/media/john-cornyn.png": "/static/media/john-cornyn.b533bea7.png",
@@ -48,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6fbda791.js",
-    "static/js/2.213ad671.chunk.js",
-    "static/css/main.d5d866e4.chunk.css",
-    "static/js/main.5c651f5b.chunk.js"
+    "static/js/2.b4731604.chunk.js",
+    "static/css/main.0a6ca615.chunk.css",
+    "static/js/main.ac8fef0e.chunk.js"
   ]
 }

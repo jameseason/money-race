@@ -33,6 +33,21 @@ img {
 
 /* App.js  ----------------------------------------------------------------- */
 
+.fab {
+  color: #6c757d;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footerButton {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footerButton:hover .fab {
+  color: #ffffff;
+}
+
 .state {
   text-align: center;
   margin: auto;

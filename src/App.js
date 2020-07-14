@@ -4,6 +4,7 @@ import Controller from './components/Controller';
 import Sort from './components/Sort';
 import {getData} from './getData';
 import * as Constants from './constants';
+import Button from 'react-bootstrap/Button';
 
 /** Main application class */
 class App extends Component {
@@ -176,10 +177,22 @@ class App extends Component {
         <center>
           <p className="bottomText">{Constants.bottomText}</p>
           <p>
-            <a href={Constants.githubLink} target="_blank"
-              rel="noopener noreferrer">
-              <img src={require('./images/github.svg')} width="30px" draggable="false" alt="GitHub logo"/>
-            </a>
+            <Button className="footerButton" variant="outline-secondary"
+              href={Constants.githubLink} target="_blank" rel="noopener noreferrer">
+              Contribute<i className="fab fa-github fa-lg"></i>
+            </Button>
+            <Button className="footerButton" variant="outline-secondary"
+              href={Constants.facebookLink} target="_blank" rel="noopener noreferrer">
+              Share<i className="fab fa-facebook fa-lg"></i>
+            </Button>
+            <Button className="footerButton" variant="outline-secondary"
+              href={Constants.twitterLink} target="_blank" rel="noopener noreferrer">
+              Tweet<i className="fab fa-twitter fa-lg"></i>
+            </Button>
+            <Button className="footerButton" variant="outline-secondary"
+              href={Constants.redditLink} target="_blank" rel="noopener noreferrer">
+              Post<i className="fab fa-reddit fa-lg"></i>
+            </Button>
           </p>
         </center>
       </div>

@@ -179,19 +179,19 @@ class App extends Component {
           <p>
             <Button className="footerButton" variant="outline-secondary"
               href={Constants.githubLink} target="_blank" rel="noopener noreferrer">
-              Contribute<i className="fab fa-github fa-lg"></i>
+              <i className="fab fa-github fa-lg"></i>Contribute
             </Button>
             <Button className="footerButton" variant="outline-secondary"
               href={Constants.facebookLink} target="_blank" rel="noopener noreferrer">
-              Share<i className="fab fa-facebook fa-lg"></i>
+              <i className="fab fa-facebook fa-lg"></i>Share
             </Button>
             <Button className="footerButton" variant="outline-secondary"
               href={Constants.twitterLink} target="_blank" rel="noopener noreferrer">
-              Tweet<i className="fab fa-twitter fa-lg"></i>
+              <i className="fab fa-twitter fa-lg"></i>Tweet
             </Button>
             <Button className="footerButton" variant="outline-secondary"
               href={Constants.redditLink} target="_blank" rel="noopener noreferrer">
-              Post<i className="fab fa-reddit fa-lg"></i>
+              <i className="fab fa-reddit fa-lg"></i>Submit
             </Button>
           </p>
         </center>

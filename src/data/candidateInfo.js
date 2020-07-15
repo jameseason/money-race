@@ -151,9 +151,9 @@ export default {
       demImg: 'doug-jones.png',
       demDonate: 'https://secure.actblue.com/donate/jones-homepage1',
 
-      repId: 'S6AL00195',
-      repName: 'Jeff Sessions',
-      repImg: 'jeff-sessions.png',
+      repId: 'S0AL00230',
+      repName: 'Tommy Tuberville',
+      repImg: 'tommy-tuberville.png',
     },
     {
       state: 'Kentucky',
@@ -176,12 +176,12 @@ export default {
 
       demId: 'S0NH00219',
       demName: 'Jeanne Shaheen',
-      demImg: 'democrat-solid.svg',
+      demImg: 'jeanne-shaheen.png',
       demDonate: 'https://secure.actblue.com/donate/shaheen-website/',
 
       repId: 'S0NH00334',
       repName: 'Corky Messner',
-      repImg: 'republican-solid.svg',
+      repImg: 'corky-messner.png',
     },
     {
       state: 'Alaska',
@@ -232,12 +232,12 @@ export default {
 
       demId: 'S8MS00287',
       demName: 'Mike Espy',
-      demImg: 'democrat-solid.svg',
+      demImg: 'mike-espy.png',
       demDonate: 'https://secure.actblue.com/donate/espy-web-2020',
 
       repId: 'S8MS00261',
       repName: 'Cindy Hyde-Smith',
-      repImg: 'republican-solid.svg',
+      repImg: 'cindy-hydesmith.png',
     },
     {
       state: 'South Carolina',

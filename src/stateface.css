@@ -1,14 +1,14 @@
 @media (max-width: 800px) {
   .stateface:before {
       font-family:  StateFaceRegular;
-      font-size: 300%;
+      font-size: 10vw;
   }
 }
 
 @media (min-width: 801px) {
   .stateface:before {
       font-family:  StateFaceRegular;
-      font-size: 700%;
+      font-size: 650%;
   }
 }
 

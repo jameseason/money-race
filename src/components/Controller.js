@@ -34,7 +34,7 @@ class Controller extends React.Component {
 
         {/* Filter by race rating */}
         <div className = "controller-element">
-          Race ratings to include: <br className="hideOnMobile" />
+          Ratings to include: <br className="hideOnMobile" />
 
           {Object.keys(ratingOptions).map((key) =>
             <React.Fragment key={key}>

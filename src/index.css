@@ -43,10 +43,6 @@ img {
   margin-right: 5px;
 }
 
-.footerButton:hover .fab {
-  color: #ffffff;
-}
-
 .state {
   text-align: center;
   margin: auto;
@@ -62,7 +58,7 @@ img {
   margin: auto;
   display: table-cell;
   vertical-align: middle;
-  width: 75%
+  width: 75%;
 }
 
 .topText {
@@ -121,17 +117,15 @@ img {
 
 @media (max-width: 800px) {
   .display-4 {
-    font-size: 5rem;
-    font-size: 15vw;
+    font-size: 8.25vw;
     margin: auto;
+    white-space: normal;
   }
   .topText {
-    font-size: 1.75rem;
-    font-size: 5vw;
+    font-size: 3.25vw;
   }
   .bottomText {
-    font-size: 1.75rem;
-    font-size: 5vw;
+    font-size: 3.25vw;
   }
   .sidenav {
     /* keep the controller above the list on small screens */
@@ -140,9 +134,12 @@ img {
   }
   .raceList {
     width: 100%;
-    font-size: 1.75rem;
-    font-size: 5vw;
+    font-size: 3.25vw;
     margin-top: 10px;
+  }
+
+  .footerButton {
+    font-size: inherit;
   }
 }
 
@@ -166,6 +163,10 @@ img {
   .raceList {
     margin-left: 250px;
     width: 70%;
+  }
+
+  .footerButton:hover .fab {
+    color: #fafafa;
   }
 }
 
@@ -209,10 +210,10 @@ img {
   .controller-element {
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 90%;
-    font-size: 1.75rem;
-    font-size: 5vw;
+    width: 100%;
+    font-size: 3.25vw;
     margin: auto;
+    white-space: normal;
   }
   .hideOnMobile {
     display: none !important;
@@ -312,6 +313,8 @@ img {
 
 .demName {
   float: left;
+  max-width: 50%;
+  white-space: normal;
 }
 
 .repName {
@@ -344,10 +347,10 @@ img {
 
 @media (max-width: 800px) {
   .portrait {
-    height: 80px;
+    height: 10vw;
   }
   .barBackground {
-    height: 80px;
+    height: 10vw;
   }
 }
 

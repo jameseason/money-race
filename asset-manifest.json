@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a6ca615.chunk.css",
-    "main.js": "/static/js/main.ac8fef0e.chunk.js",
-    "main.js.map": "/static/js/main.ac8fef0e.chunk.js.map",
+    "main.css": "/static/css/main.b0f46702.chunk.css",
+    "main.js": "/static/js/main.82478437.chunk.js",
+    "main.js.map": "/static/js/main.82478437.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6fbda791.js",
     "runtime-main.js.map": "/static/js/runtime-main.6fbda791.js.map",
-    "static/js/2.b4731604.chunk.js": "/static/js/2.b4731604.chunk.js",
-    "static/js/2.b4731604.chunk.js.map": "/static/js/2.b4731604.chunk.js.map",
+    "static/js/2.8908f40f.chunk.js": "/static/js/2.8908f40f.chunk.js",
+    "static/js/2.8908f40f.chunk.js.map": "/static/js/2.8908f40f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.99b89d4bba1b4abc07bb75ed914284cb.js": "/precache-manifest.99b89d4bba1b4abc07bb75ed914284cb.js",
+    "precache-manifest.cbd08649db842620dcbafc7f38049445.js": "/precache-manifest.cbd08649db842620dcbafc7f38049445.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0a6ca615.chunk.css.map": "/static/css/main.0a6ca615.chunk.css.map",
-    "static/js/2.b4731604.chunk.js.LICENSE.txt": "/static/js/2.b4731604.chunk.js.LICENSE.txt",
+    "static/css/main.b0f46702.chunk.css.map": "/static/css/main.b0f46702.chunk.css.map",
+    "static/js/2.8908f40f.chunk.js.LICENSE.txt": "/static/js/2.8908f40f.chunk.js.LICENSE.txt",
     "static/media/al-gross.png": "/static/media/al-gross.a112ee77.png",
     "static/media/amy-mcgrath.png": "/static/media/amy-mcgrath.bd830bf1.png",
-    "static/media/barbara-bollier.png": "/static/media/barbara-bollier.2d388cef.png",
+    "static/media/barbara-bollier.png": "/static/media/barbara-bollier.1a9a4de0.png",
     "static/media/cal-cunningham.png": "/static/media/cal-cunningham.738cd5f5.png",
+    "static/media/cindy-hydesmith.png": "/static/media/cindy-hydesmith.8f9b5e13.png",
+    "static/media/corky-messner.png": "/static/media/corky-messner.acd54d16.png",
     "static/media/cory-gardner.png": "/static/media/cory-gardner.52e0fb97.png",
     "static/media/dan-sullivan.png": "/static/media/dan-sullivan.1a18b858.png",
     "static/media/david-perdue.png": "/static/media/david-perdue.3da4a031.png",
@@ -23,6 +25,7 @@
     "static/media/doug-jones.png": "/static/media/doug-jones.20701bae.png",
     "static/media/gary-peters.png": "/static/media/gary-peters.31a23a53.png",
     "static/media/jaime-harrison.png": "/static/media/jaime-harrison.08acfbff.png",
+    "static/media/jeanne-shaheen.png": "/static/media/jeanne-shaheen.d8c5afe5.png",
     "static/media/jeff-sessions.png": "/static/media/jeff-sessions.848ba18d.png",
     "static/media/john-cornyn.png": "/static/media/john-cornyn.b533bea7.png",
     "static/media/john-hickenlooper.png": "/static/media/john-hickenlooper.9c913bf0.png",
@@ -33,6 +36,7 @@
     "static/media/lindsey-graham.png": "/static/media/lindsey-graham.6402d584.png",
     "static/media/mark-kelly.png": "/static/media/mark-kelly.6d00a600.png",
     "static/media/martha-mcsally.png": "/static/media/martha-mcsally.8d5f142e.png",
+    "static/media/mike-espy.png": "/static/media/mike-espy.f134eb9b.png",
     "static/media/mitch-mcconnell.png": "/static/media/mitch-mcconnell.59a832b6.png",
     "static/media/mj-hegar.png": "/static/media/mj-hegar.42e8db7b.png",
     "static/media/raphael-warnock.png": "/static/media/raphael-warnock.67ba915a.png",
@@ -43,12 +47,13 @@
     "static/media/steve-daines.png": "/static/media/steve-daines.ff64087c.png",
     "static/media/susan-collins.png": "/static/media/susan-collins.a604e460.png",
     "static/media/theresa-greenfield.png": "/static/media/theresa-greenfield.b8287031.png",
-    "static/media/thom-tillis.png": "/static/media/thom-tillis.c04724bc.png"
+    "static/media/thom-tillis.png": "/static/media/thom-tillis.c04724bc.png",
+    "static/media/tommy-tuberville.png": "/static/media/tommy-tuberville.67fb7de4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6fbda791.js",
-    "static/js/2.b4731604.chunk.js",
-    "static/css/main.0a6ca615.chunk.css",
-    "static/js/main.ac8fef0e.chunk.js"
+    "static/js/2.8908f40f.chunk.js",
+    "static/css/main.b0f46702.chunk.css",
+    "static/js/main.82478437.chunk.js"
   ]
 }

@@ -260,7 +260,7 @@ export default {
 
       demId: 'S8OR00207',
       demName: 'Jeff Merkley',
-      demImg: 'democrat-solid.svg',
+      demImg: 'jeff-merkley.png',
       demDonate: 'https://secure.actblue.com/contribute/page/stand-with-jeff-merkley',
 
       repId: 'S4OR00156',
@@ -307,7 +307,7 @@ export default {
 
       repId: 'S0VA00146',
       repName: 'Daniel Gade',
-      repImg: 'republican-solid.svg',
+      repImg: 'daniel-gade.png',
     },
     {
       state: 'Delaware',
@@ -455,7 +455,7 @@ export default {
 
       demId: 'S4NJ00185',
       demName: 'Cory Booker',
-      demImg: 'democrat-solid.svg',
+      demImg: 'cory-booker.png',
       demDonate: 'https://secure.actblue.com/donate/corybooker-2020-website',
 
       repId: 'S0NJ00217',
@@ -469,7 +469,7 @@ export default {
 
       demId: 'S4MA00028',
       demName: 'Ed Markey',
-      demImg: 'democrat-solid.svg',
+      demImg: 'ed-markey.png',
       demDonate: 'https://secure.actblue.com/donate/ejm2020',
 
       repId: 'S0MA00232',
@@ -483,7 +483,7 @@ export default {
 
       demId: 'S6RI00163',
       demName: 'Jack Reed',
-      demImg: 'democrat-solid.svg',
+      demImg: 'jack-reed.png',
       demDonate: 'https://secure.actblue.com/contribute/page/jackreed',
 
       repId: 'S0RI00067',

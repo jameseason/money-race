@@ -141,6 +141,10 @@ img {
   .footerButton {
     font-size: inherit;
   }
+
+  .fab {
+    margin-left: 5px;
+  }
 }
 
 @media (min-width: 801px) {

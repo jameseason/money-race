@@ -207,9 +207,9 @@ export default {
       demImg: 'barbara-bollier.png',
       demDonate: 'https://secure.actblue.com/donate/bb4ks-web',
 
-      repId: 'S0KS00349',
-      repName: 'Bob Hamilton',
-      repImg: 'republican-solid.svg',
+      repId: 'S0KS00315',
+      repName: 'Roger Marshall',
+      repImg: 'roger-marshall.png',
     },
     {
       state: 'Tennessee',
@@ -218,12 +218,12 @@ export default {
 
       demId: 'S8TN00311',
       demName: 'James Mackler',
-      demImg: 'democrat-solid.svg',
+      demImg: 'james-mackler.png',
       demDonate: 'https://secure.actblue.com/donate/mackler2020',
 
       repId: 'S0TN00169',
       repName: 'Bill Hagerty',
-      repImg: 'republican-solid.svg',
+      repImg: 'bill-hagerty.png',
     },
     {
       state: 'Mississippi',
@@ -274,12 +274,12 @@ export default {
 
       demId: 'S0NM00058',
       demName: 'Ben Ray Lujan',
-      demImg: 'democrat-solid.svg',
+      demImg: 'ben-ray-lujan.png',
       demDonate: 'https://secure.actblue.com/donate/brlhomepage',
 
       repId: 'S0NM00124',
       repName: 'Mark Ronchetti',
-      repImg: 'republican-solid.svg',
+      repImg: 'mark-ronchetti.png',
     },
     {
       state: 'Minnesota',
@@ -288,12 +288,12 @@ export default {
 
       demId: 'S8MN00578',
       demName: 'Tina Smith',
-      demImg: 'democrat-solid.svg',
+      demImg: 'tina-smith.png',
       demDonate: 'https://secure.actblue.com/donate/tina-smith',
 
       repId: 'S0MN00328',
       repName: 'Jason Lewis',
-      repImg: 'republican-solid.svg',
+      repImg: 'jason-lewis.png',
     },
     {
       state: 'Virginia',
@@ -302,7 +302,7 @@ export default {
 
       demId: 'S6VA00093',
       demName: 'Mark Warner',
-      demImg: 'democrat-solid.svg',
+      demImg: 'mark-warner.png',
       demDonate: 'https://secure.actblue.com/donate/mrw-web',
 
       repId: 'S0VA00146',
@@ -316,7 +316,7 @@ export default {
 
       demId: 'S0DE00092',
       demName: 'Chris Coons',
-      demImg: 'democrat-solid.svg',
+      demImg: 'chris-coons.png',
       demDonate: 'https://secure.actblue.com/contribute/page/chriscoons.com',
 
       repId: 'S0DE00191',
@@ -426,8 +426,8 @@ export default {
       rating: 'solidDem',
 
       demId: 'S6IL00151',
-      demName: 'Dick Durban',
-      demImg: 'democrat-solid.svg',
+      demName: 'Dick Durbin',
+      demImg: 'dick-durbin.png',
       demDonate: 'https://secure.actblue.com/contribute/page/dick-durbin',
 
       repId: 'S0IL00543',

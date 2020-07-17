@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30ad036cbb391c84f693f005dbf66991",
+    "revision": "bd8f0b9023bcf86de7be73f15166b48a",
     "url": "/index.html"
   },
   {
-    "revision": "9826d581616597f79e99",
+    "revision": "330f76e3acfe3fb78d32",
     "url": "/static/css/main.a1c8a5ff.chunk.css"
   },
   {
-    "revision": "2ca5a276ded047725784",
-    "url": "/static/js/2.97ab2701.chunk.js"
+    "revision": "e7452286ba03ca53dc10",
+    "url": "/static/js/2.8348652f.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.97ab2701.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8348652f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9826d581616597f79e99",
-    "url": "/static/js/main.31f65bcd.chunk.js"
+    "revision": "330f76e3acfe3fb78d32",
+    "url": "/static/js/main.29cd2b0a.chunk.js"
   },
   {
     "revision": "4180683ef2ac4a0f4709",
@@ -40,6 +40,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ben-ray-lujan.8afb88f7.png"
   },
   {
+    "revision": "9758e2d13dc67b6ca4c554c5e768a6ee",
+    "url": "/static/media/ben-sasse.9758e2d1.png"
+  },
+  {
+    "revision": "58fe48f4a702829b8f203ad82d6f4b8f",
+    "url": "/static/media/bill-cassidy.58fe48f4.png"
+  },
+  {
     "revision": "419b528f191f584c87fc31d19fc4e429",
     "url": "/static/media/bill-hagerty.419b528f.png"
   },
@@ -60,12 +68,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/corky-messner.acd54d16.png"
   },
   {
+    "revision": "f6c7a1154667008a0f5279315bea218b",
+    "url": "/static/media/cory-booker.f6c7a115.png"
+  },
+  {
     "revision": "52e0fb97144c6ccbda60a3a311a9b769",
     "url": "/static/media/cory-gardner.52e0fb97.png"
   },
   {
+    "revision": "12097aa633777d40fce4c8400741f7d8",
+    "url": "/static/media/cynthia-lummis.12097aa6.png"
+  },
+  {
     "revision": "1a18b858f2567157c4259a75de486d2c",
     "url": "/static/media/dan-sullivan.1a18b858.png"
+  },
+  {
+    "revision": "eec9998017798a64a13d7b3421b810a9",
+    "url": "/static/media/daniel-gade.eec99980.png"
   },
   {
     "revision": "3da4a031c830abaee576b4a365156e97",
@@ -84,8 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/doug-jones.20701bae.png"
   },
   {
+    "revision": "65ff63153ff7a0d1221796e07ea13276",
+    "url": "/static/media/ed-markey.65ff6315.png"
+  },
+  {
     "revision": "31a23a53de490750b00c9c56e862234e",
     "url": "/static/media/gary-peters.31a23a53.png"
+  },
+  {
+    "revision": "833af9c6fda7cf5fc0649d2bf9b5e0a3",
+    "url": "/static/media/jack-reed.833af9c6.png"
   },
   {
     "revision": "08acfbff081fe946c533a24574ef1e66",
@@ -96,6 +124,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/james-mackler.981c1527.png"
   },
   {
+    "revision": "ccbfe562a4cddb31e219c98b97f65087",
+    "url": "/static/media/james-risch.ccbfe562.png"
+  },
+  {
     "revision": "043605bf949ffeb13ec1e2bb9cb94810",
     "url": "/static/media/jason-lewis.043605bf.png"
   },
@@ -104,8 +136,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jeanne-shaheen.d8c5afe5.png"
   },
   {
+    "revision": "d87653e822ac5911021a4fd4128c315b",
+    "url": "/static/media/jeff-merkley.d87653e8.png"
+  },
+  {
     "revision": "848ba18dca964908a019c87872a636ae",
     "url": "/static/media/jeff-sessions.848ba18d.png"
+  },
+  {
+    "revision": "20351ff0efa3cf9ec8d9f8fc7734a20e",
+    "url": "/static/media/jim-inhofe.20351ff0.png"
   },
   {
     "revision": "b533bea778f12c603d9619e2b8751941",
@@ -120,8 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/john-james.c0096b8d.png"
   },
   {
-    "revision": "f31fe393057f4734e66b8ec3ebbd5cb3",
-    "url": "/static/media/jon-ossoff.f31fe393.png"
+    "revision": "89144d52a1e423dc62c57978b5e7c291",
+    "url": "/static/media/jon-ossoff.89144d52.png"
   },
   {
     "revision": "d5e8634797b540c376c3cbbafc9f449b",
@@ -156,6 +196,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mike-espy.f134eb9b.png"
   },
   {
+    "revision": "4a4373834e7a7ef63067ef04e1476636",
+    "url": "/static/media/mike-rounds.4a437383.png"
+  },
+  {
     "revision": "59a832b6942f6405840d600a28c35df2",
     "url": "/static/media/mitch-mcconnell.59a832b6.png"
   },
@@ -178,6 +222,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cf7e602adc7b229b91106e94d1bd7280",
     "url": "/static/media/sara-gideon.cf7e602a.png"
+  },
+  {
+    "revision": "6ae822224028d121b68c6251a8cf9906",
+    "url": "/static/media/shelleymoore-capito.6ae82222.png"
   },
   {
     "revision": "1ac73a56a3b5639a35160aff689eef40",
@@ -218,6 +266,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "66f2eca920590b49d2356f80172ada66",
     "url": "/static/media/tina-smith.66f2eca9.png"
+  },
+  {
+    "revision": "d39359db31d389df50163d0a331be656",
+    "url": "/static/media/tom-cotton.d39359db.png"
   },
   {
     "revision": "67fb7de4be78404c824def886b4c448f",

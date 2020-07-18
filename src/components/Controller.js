@@ -7,7 +7,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 class Controller extends React.Component {
   render() {
     const sortByOptions = {
-      closest: 'Closest Race',
+      closest: 'Closest Money Race',
       rating: 'Race Rating',
       state: 'State Name',
       total: 'Money in Race',

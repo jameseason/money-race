@@ -207,9 +207,9 @@ export default {
       demImg: 'barbara-bollier.png',
       demDonate: 'https://secure.actblue.com/donate/bb4ks-web',
 
-      repId: 'S0KS00349',
-      repName: 'Bob Hamilton',
-      repImg: 'republican-solid.svg',
+      repId: 'S0KS00315',
+      repName: 'Roger Marshall',
+      repImg: 'roger-marshall.png',
     },
     {
       state: 'Tennessee',

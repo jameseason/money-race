@@ -216,10 +216,10 @@ export default {
       stateAbbrev: 'tn',
       rating: 'likelyRep',
 
-      demId: 'S8TN00311',
-      demName: 'James Mackler',
-      demImg: 'james-mackler.png',
-      demDonate: 'https://secure.actblue.com/donate/mackler2020',
+      demId: 'S0TN00342',
+      demName: 'Marquita Bradshaw',
+      demImg: 'marquita-bradshaw.png',
+      demDonate: 'https://secure.actblue.com/donate/marquitaussenate',
 
       repId: 'S0TN00169',
       repName: 'Bill Hagerty',

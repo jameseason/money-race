@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f522a0e7630028f5856cea8ea0f4b76",
+    "revision": "be09ffb40fed2761cba14a5881560d14",
     "url": "/index.html"
   },
   {
-    "revision": "d414a028f82e1cb60777",
+    "revision": "b1ffa41058da281b368c",
     "url": "/static/css/main.a1c8a5ff.chunk.css"
   },
   {
-    "revision": "e7452286ba03ca53dc10",
-    "url": "/static/js/2.8348652f.chunk.js"
+    "revision": "b5fb8815cd0eea9ef623",
+    "url": "/static/js/2.829d3782.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.8348652f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.829d3782.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d414a028f82e1cb60777",
-    "url": "/static/js/main.9f13616a.chunk.js"
+    "revision": "b1ffa41058da281b368c",
+    "url": "/static/js/main.ee952d04.chunk.js"
   },
   {
     "revision": "4180683ef2ac4a0f4709",
@@ -186,6 +186,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ed682c6d4597d5fa9333b3f83549bbe",
     "url": "/static/media/mark-warner.7ed682c6.png"
+  },
+  {
+    "revision": "d3a516e9f1412cc55991dc9b14a7c1b3",
+    "url": "/static/media/marquita-bradshaw.d3a516e9.png"
   },
   {
     "revision": "a4a5b4649d3e9905d4c6ab5e6280dd8f",

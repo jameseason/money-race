@@ -46,7 +46,7 @@ export default {
     {
       state: 'Colorado',
       stateAbbrev: 'co',
-      rating: 'tossup',
+      rating: 'leanDem',
 
       demId: 'S0CO00575',
       demName: 'John Hickenlooper',
@@ -200,7 +200,7 @@ export default {
     {
       state: 'Kansas',
       stateAbbrev: 'ks',
-      rating: 'likelyRep',
+      rating: 'leanRep',
 
       demId: 'S0KS00323',
       demName: 'Barbara Bollier',
@@ -214,7 +214,7 @@ export default {
     {
       state: 'Tennessee',
       stateAbbrev: 'tn',
-      rating: 'likelyRep',
+      rating: 'solidRep',
 
       demId: 'S0TN00342',
       demName: 'Marquita Bradshaw',
@@ -242,7 +242,7 @@ export default {
     {
       state: 'South Carolina',
       stateAbbrev: 'sc',
-      rating: 'likelyRep',
+      rating: 'leanRep',
 
       demId: 'S0SC00289',
       demName: 'Jaime Harrison',

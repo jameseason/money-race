@@ -1,8 +1,8 @@
 # 2020 Senate Money Race
-This project is intended to display financial information for 2020 Senate candidates. Deployed to https://senatemoneyrace.org
+This project is intended to help visualize the financial reports of 2020 US Senate candidates. Deployed to https://senatemoneyrace.org
 
 ## Controller Options
-On the left of the page, there are several options to change what is displayed.
+The controller contains several options to change what is displayed.
 
 ### Value to display
 This is a toggle between _Cash on Hand_ and _Total Raised_. _Cash on Hand_ is the amount of money that the candidate's committees had on hand at the end of the last reporting period. _Total Raised_ is the total amount of money that the candidate's committees had raised this cycle, as of the end of the last reporting period. To see when the end of the last reporting period was, hover over the dollar amount displayed for the candidate.

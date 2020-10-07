@@ -319,8 +319,8 @@ export default {
       demImg: 'chris-coons.png',
       demDonate: 'https://secure.actblue.com/contribute/page/chriscoons.com',
 
-      repId: 'S0DE00191',
-      repName: 'James DeMartino',
+      repId: 'S0DE00183',
+      repName: 'Lauren Witzke',
       repImg: 'republican-solid.svg',
     },
     {
@@ -400,7 +400,6 @@ export default {
       demId: 'S0AR00218',
       demName: 'Dan Whitfield',
       demImg: 'democrat-solid.svg',
-      demDonate: 'https://danwhitcongress.us/donate',
 
       repId: 'S4AR00103',
       repName: 'Tom Cotton',
@@ -411,10 +410,10 @@ export default {
       stateAbbrev: 'la',
       rating: 'solidRep',
 
-      demId: 'S0LA00345',
-      demName: 'Peter Wenstrup',
+      demId: 'S0LA00311',
+      demName: 'Antoine Pierce',
       demImg: 'democrat-solid.svg',
-      demDonate: 'https://secure.actblue.com/donate/citizens-for-wenstrup-1',
+      demDonate: 'https://secure.actblue.com/donate/antoine-pierce-1',
 
       repId: 'S4LA00107',
       repName: 'Bill Cassidy',
@@ -472,8 +471,8 @@ export default {
       demImg: 'ed-markey.png',
       demDonate: 'https://secure.actblue.com/donate/ejm2020',
 
-      repId: 'S8MA00268',
-      repName: 'Shiva Ayyadurai',
+      repId: 'S0MA00232',
+      repName: 'Kevin O\'Connor',
       repImg: 'republican-solid.svg',
     },
     {

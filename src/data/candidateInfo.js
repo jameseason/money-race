@@ -186,7 +186,7 @@ export default {
     {
       state: 'Alaska',
       stateAbbrev: 'ak',
-      rating: 'likelyRep',
+      rating: 'leanRep',
 
       demId: 'S0AK00196',
       demName: 'Al Gross',
@@ -312,7 +312,7 @@ export default {
     {
       state: 'Delaware',
       stateAbbrev: 'de',
-      rating: 'likelyDem',
+      rating: 'solidDem',
 
       demId: 'S0DE00092',
       demName: 'Chris Coons',

@@ -14,7 +14,7 @@ export const twitterLink = 'https://twitter.com/intent/tweet?text=' + siteLink;
 export const redditLink = 'https://reddit.com/submit?url=' + siteLink;
 
 // getData.js
-export const latestBackupFile = 'response_0717.json';
+export const latestBackupFile = 'response_1017.json';
 export const fecBaseUrl = 'https://api.open.fec.gov/v1/candidates/totals/';
 export const apiKey = '01S7pQx8JQPyWhG5lXIcG6QTgVh1ZQ87ITVH2gdH';
 export const localStorageTime = 70000000;
